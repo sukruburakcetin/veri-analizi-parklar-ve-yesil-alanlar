@@ -1,0 +1,90 @@
+institution_id,district_tr,institution_name,latitude,longitude,neighborhood_tr,district_eng,institution_type_abbrv_tr,institution_type_abbrv_eng,neighborhood_eng
+136,Bahçeli̇evler,Çınar Cad. Parkı,41.0155021575987,28.8128653206669,YENİBOSNA MERKEZ,Bahcelievler,Çınar Cad. Parkı,Cinar Cad. Parki,YENIBOSNA MERKEZ
+155,Bahçeli̇evler,Yeşil Alan,41.0168154196957,28.8436938100304,KOCASİNAN MERKEZ,Bahcelievler,Yeşil Alan,Yesil Alan,KOCASINAN MERKEZ
+165,Bahçeli̇evler,Şehit Er Girol Alpago Parkı,41.0117969736671,28.8213363172496,YENİBOSNA MERKEZ,Bahcelievler,Şehit Er Girol Alpago Parkı,Sehit Er Girol Alpago Parki,YENIBOSNA MERKEZ
+186,Bahçeli̇evler,Oğuzhan Sok. Parkı,41.005824466399,28.831542557654,FEVZİ ÇAKMAK,Bahcelievler,Oğuzhan Sok. Parkı,Oguzhan Sok. Parki,FEVZI CAKMAK
+240,Bahçeli̇evler,Mustafa Dönmez Parkı,41.0178724205575,28.8549757361861,CUMHURİYET,Bahcelievler,Mustafa Dönmez Parkı,Mustafa Donmez Parki,CUMHURIYET
+384,Bahçeli̇evler,Sağlıklı Yaşam Parkı,40.9951376764819,28.8343663356469,FEVZİ ÇAKMAK,Bahcelievler,Sağlıklı Yaşam Parkı,Saglikli Yasam Parki,FEVZI CAKMAK
+418,Bahçeli̇evler,Doğan Koloğlu Parkı,40.9950801138291,28.8399019700876,HÜRRİYET,Bahcelievler,Doğan Koloğlu Parkı,Dogan Kologlu Parki,HURRIYET
+623,Bahçeli̇evler,Nene Hatun Parkı,41.0211662845359,28.831730715556,KOCASİNAN MERKEZ,Bahcelievler,Nene Hatun Parkı,Nene Hatun Parki,KOCASINAN MERKEZ
+624,Bahçeli̇evler,Çocuk Parkı,41.0071089106266,28.847745179988,SOĞANLI,Bahcelievler,Çocuk Parkı,Cocuk Parki,SOGANLI
+774,Bahçeli̇evler,Park,41.021976945805,28.8397445009492,KOCASİNAN MERKEZ,Bahcelievler,Park,Park,KOCASINAN MERKEZ
+775,Bahçeli̇evler,Kerim Tekin Sok. Parkı,41.0059756480533,28.8797855026398,BAHÇELİEVLER,Bahcelievler,Kerim Tekin Sok. Parkı,Kerim Tekin Sok. Parki,BAHCELIEVLER
+776,Bahçeli̇evler,Bahçelievler Parkı,41.0044712388543,28.8642958881613,BAHÇELİEVLER,Bahcelievler,Bahçelievler Parkı,Bahcelievler Parki,BAHCELIEVLER
+787,Bahçeli̇evler,Selim Ayaydın Parkı,40.9983912590388,28.8582951771469,BAHÇELİEVLER,Bahcelievler,Selim Ayaydın Parkı,Selim Ayaydin Parki,BAHCELIEVLER
+788,Bahçeli̇evler,Kıbrıs Parkı,41.0000357658012,28.8639445073619,BAHÇELİEVLER,Bahcelievler,Kıbrıs Parkı,Kibris Parki,BAHCELIEVLER
+789,Bahçeli̇evler,Kerim Tekin Parkı,41.0135246028144,28.8335807243688,ZAFER,Bahcelievler,Kerim Tekin Parkı,Kerim Tekin Parki,ZAFER
+790,Bahçeli̇evler,Soğanlı Cumhuriyet Mahallesi Parkı,41.0204612642173,28.8523423659154,CUMHURİYET,Bahcelievler,Soğanlı Cumhuriyet Mahallesi Parkı,Soganli Cumhuriyet Mahallesi Parki,CUMHURIYET
+791,Bahçeli̇evler,Tuğra Park,41.0173932923817,28.8311851959184,YENİBOSNA MERKEZ,Bahcelievler,Tuğra Park,Tugra Park,YENIBOSNA MERKEZ
+792,Bahçeli̇evler,Şehit Vedat Ulusoy Parkı,41.0128823234046,28.8292137865469,YENİBOSNA MERKEZ,Bahcelievler,Şehit Vedat Ulusoy Parkı,Sehit Vedat Ulusoy Parki,YENIBOSNA MERKEZ
+811,Bahçeli̇evler,Cumhuriyet Parkı,41.0081659131697,28.8194408611932,YENİBOSNA MERKEZ,Bahcelievler,Cumhuriyet Parkı,Cumhuriyet Parki,YENIBOSNA MERKEZ
+812,Bahçeli̇evler,Kadir Has Parkı,41.0170039347766,28.8290387332682,YENİBOSNA MERKEZ,Bahcelievler,Kadir Has Parkı,Kadir Has Parki,YENIBOSNA MERKEZ
+968,Bahçeli̇evler,Kızılay Parkı,40.9993694020091,28.8467398028719,ŞİRİNEVLER,Bahcelievler,Kızılay Parkı,Kizilay Parki,SIRINEVLER
+979,Bahçeli̇evler,Şehit Yarbay Cesur Parkı,40.9961371304828,28.8488215044845,ŞİRİNEVLER,Bahcelievler,Şehit Yarbay Cesur Parkı,Sehit Yarbay Cesur Parki,SIRINEVLER
+980,Bahçeli̇evler,Mahmutbey 1. Sok. Parkı,40.9961594416342,28.8444211888974,ŞİRİNEVLER,Bahcelievler,Mahmutbey 1. Sok. Parkı,Mahmutbey 1. Sok. Parki,SIRINEVLER
+1046,Bahçeli̇evler,Sağlıklı Yaşam Parkı,41.0031887117647,28.8633032835064,BAHÇELİEVLER,Bahcelievler,Sağlıklı Yaşam Parkı,Saglikli Yasam Parki,BAHCELIEVLER
+1048,Bahçeli̇evler,Park,41.0200279816245,28.8342473662155,KOCASİNAN MERKEZ,Bahcelievler,Park,Park,KOCASINAN MERKEZ
+1056,Bahçeli̇evler,Mehmet Akif Ersoy Parkı,41.0158069995698,28.8442860969185,KOCASİNAN MERKEZ,Bahcelievler,Mehmet Akif Ersoy Parkı,Mehmet Akif Ersoy Parki,KOCASINAN MERKEZ
+1057,Bahçeli̇evler,Siyavuşpaşa Parkı,40.99583474331,28.8536184417796,SİYAVUŞPAŞA,Bahcelievler,Siyavuşpaşa Parkı,Siyavuspasa Parki,SIYAVUSPASA
+1135,Bahçeli̇evler,Çocuk Parkı,41.0063072908781,28.8403383724833,HÜRRİYET,Bahcelievler,Çocuk Parkı,Cocuk Parki,HURRIYET
+1212,Bahçeli̇evler,Park,41.0106638639733,28.8322488071953,ZAFER,Bahcelievler,Park,Park,ZAFER
+1270,Bahçeli̇evler,Park,40.998251763533,28.8269512010771,ÇOBANÇEŞME,Bahcelievler,Park,Park,COBANCESME
+1332,Bahçeli̇evler,Atsushi Miyazati Trafik Eğitim ve Savunma Parkı,41.0031270144679,28.822780321445,ÇOBANÇEŞME,Bahcelievler,Atsushi Miyazati Trafik Eğitim ve Savunma Parkı,Atsushi Miyazati Trafik Egitim ve Savunma Parki,COBANCESME
+1473,Bahçeli̇evler,Erkan Ocaklı Parkı,41.0163745372606,28.8404587572209,KOCASİNAN MERKEZ,Bahcelievler,Erkan Ocaklı Parkı,Erkan Ocakli Parki,KOCASINAN MERKEZ
+1596,Bahçeli̇evler,Köroğlu Parkı,41.0103312573152,28.8448780235806,KOCASİNAN MERKEZ,Bahcelievler,Köroğlu Parkı,Koroglu Parki,KOCASINAN MERKEZ
+1665,Bahçeli̇evler,Öğretmenler Parkı,41.0025540993733,28.8386032649735,ZAFER,Bahcelievler,Öğretmenler Parkı,Ogretmenler Parki,ZAFER
+1699,Bahçeli̇evler,Şehit İbrahim Ceylan Parkı,41.0135020257911,28.8434126086505,KOCASİNAN MERKEZ,Bahcelievler,Şehit İbrahim Ceylan Parkı,Sehit Ibrahim Ceylan Parki,KOCASINAN MERKEZ
+1796,Bahçeli̇evler,Başer Akşam Lisesi Parkı,41.0086803035112,28.82939938567,YENİBOSNA MERKEZ,Bahcelievler,Başer Akşam Lisesi Parkı,Baser Aksam Lisesi Parki,YENIBOSNA MERKEZ
+1966,Bahçeli̇evler,Şehitlik Parkı,41.0040712003919,28.877275171817,BAHÇELİEVLER,Bahcelievler,Şehitlik Parkı,Sehitlik Parki,BAHCELIEVLER
+1981,Bahçeli̇evler,Mimar Sinan Parkı,41.0194397720536,28.821842065383,YENİBOSNA MERKEZ,Bahcelievler,Mimar Sinan Parkı,Mimar Sinan Parki,YENIBOSNA MERKEZ
+1995,Bahçeli̇evler,Erzurumlu İbrahim Hakkım Parkı,41.0180279567727,28.842699347283,KOCASİNAN MERKEZ,Bahcelievler,Erzurumlu İbrahim Hakkım Parkı,Erzurumlu Ibrahim Hakkim Parki,KOCASINAN MERKEZ
+1996,Bahçeli̇evler,Sevgi Evi Parkı,41.0208241130221,28.8353345960087,KOCASİNAN MERKEZ,Bahcelievler,Sevgi Evi Parkı,Sevgi Evi Parki,KOCASINAN MERKEZ
+1999,Bahçeli̇evler,Zübeyde Hanım Parkı,41.005496681512,28.8756880011014,BAHÇELİEVLER,Bahcelievler,Zübeyde Hanım Parkı,Zubeyde Hanim Parki,BAHCELIEVLER
+2000,Bahçeli̇evler,Nacı Kasım Parkı,41.0010811216558,28.8733675415497,BAHÇELİEVLER,Bahcelievler,Nacı Kasım Parkı,Naci Kasim Parki,BAHCELIEVLER
+2001,Bahçeli̇evler,Spor Parkı,40.9963388709468,28.8254981135224,ÇOBANÇEŞME,Bahcelievler,Spor Parkı,Spor Parki,COBANCESME
+2005,Bahçeli̇evler,Orhan Ayhan Parkı,41.0042477902896,28.8398354337259,HÜRRİYET,Bahcelievler,Orhan Ayhan Parkı,Orhan Ayhan Parki,HURRIYET
+2013,Bahçeli̇evler,Sadri Alışık Parkı,41.0049109209822,28.8628634881546,BAHÇELİEVLER,Bahcelievler,Sadri Alışık Parkı,Sadri AlisIk Parki,BAHCELIEVLER
+2015,Bahçeli̇evler,Yıldırım Beyazıt Parkı,41.0021374674614,28.8353226926966,ZAFER,Bahcelievler,Yıldırım Beyazıt Parkı,Yildirim Beyazit Parki,ZAFER
+2019,Bahçeli̇evler,Park,41.0011954577186,28.8460979252474,ŞİRİNEVLER,Bahcelievler,Park,Park,SIRINEVLER
+2020,Bahçeli̇evler,Altınyıldız Parkı,41.0068386474315,28.8203199522133,YENİBOSNA MERKEZ,Bahcelievler,Altınyıldız Parkı,Altinyildiz Parki,YENIBOSNA MERKEZ
+2115,Bahçeli̇evler,Ekrem Bulut Parkı,41.0030498094386,28.8433202912793,ŞİRİNEVLER,Bahcelievler,Ekrem Bulut Parkı,Ekrem Bulut Parki,SIRINEVLER
+2196,Bahçeli̇evler,Şehit Serkan Alçınkaya Parkı,41.0089193243515,28.8592285477495,BAHÇELİEVLER,Bahcelievler,Şehit Serkan Alçınkaya Parkı,Sehit Serkan Alcinkaya Parki,BAHCELIEVLER
+2197,Bahçeli̇evler,Sami Özey Parkı,41.009020135442,28.8677547787898,BAHÇELİEVLER,Bahcelievler,Sami Özey Parkı,Sami Ozey Parki,BAHCELIEVLER
+2198,Bahçeli̇evler,Turgay Şeren Parkı,41.0063580790701,28.8768954333741,BAHÇELİEVLER,Bahcelievler,Turgay Şeren Parkı,Turgay Seren Parki,BAHCELIEVLER
+2243,Bahçeli̇evler,Çocuk Parkı,41.0096620861087,28.8405763503859,KOCASİNAN MERKEZ,Bahcelievler,Çocuk Parkı,Cocuk Parki,KOCASINAN MERKEZ
+2277,Bahçeli̇evler,Tanyolaç Parkı,41.0074249919897,28.8422508745017,KOCASİNAN MERKEZ,Bahcelievler,Tanyolaç Parkı,Tanyolac Parki,KOCASINAN MERKEZ
+2278,Bahçeli̇evler,Necmi Tanyolaç Parkı,41.0071304627943,28.8432819199287,KOCASİNAN MERKEZ,Bahcelievler,Necmi Tanyolaç Parkı,Necmi Tanyolac Parki,KOCASINAN MERKEZ
+2279,Bahçeli̇evler,Şehit Hüseyin Uzunal Parkı,40.9990022294788,28.8526766684017,SİYAVUŞPAŞA,Bahcelievler,Şehit Hüseyin Uzunal Parkı,Sehit Huseyin Uzunal Parki,SIYAVUSPASA
+2363,Bahçeli̇evler,Serdar Sok. Parkı,41.0040202256515,28.8336368068928,ZAFER,Bahcelievler,Serdar Sok. Parkı,Serdar Sok. Parki,ZAFER
+2367,Bahçeli̇evler,Şehit Enver Yorulmaz Parkı,41.0015460548744,28.8616462380103,BAHÇELİEVLER,Bahcelievler,Şehit Enver Yorulmaz Parkı,Sehit Enver Yorulmaz Parki,BAHCELIEVLER
+2368,Bahçeli̇evler,Piri Reis Parkı,41.0048509882222,28.8256132885965,ÇOBANÇEŞME,Bahcelievler,Piri Reis Parkı,Piri Reis Parki,COBANCESME
+2703,Bahçeli̇evler,Karadeniz Parkı,41.0105623180806,28.84255433428,KOCASİNAN MERKEZ,Bahcelievler,Karadeniz Parkı,Karadeniz Parki,KOCASINAN MERKEZ
+2704,Bahçeli̇evler,Karadeniz Parkı,41.0105623180806,28.84255433428,KOCASİNAN MERKEZ,Bahcelievler,Karadeniz Parkı,Karadeniz Parki,KOCASINAN MERKEZ
+2782,Bahçeli̇evler,Atilla Gökçe Parkı,41.0099338432713,28.819387706039,YENİBOSNA MERKEZ,Bahcelievler,Atilla Gökçe Parkı,Atilla Gokce Parki,YENIBOSNA MERKEZ
+2828,Bahçeli̇evler,Kahraman Bapçum Parkı,41.0098818491623,28.8625025445629,BAHÇELİEVLER,Bahcelievler,Kahraman Bapçum Parkı,Kahraman Bapcum Parki,BAHCELIEVLER
+2878,Bahçeli̇evler,Şehit Oktay Demiryürek Parkı,41.0078234420623,28.8214377313622,YENİBOSNA MERKEZ,Bahcelievler,Şehit Oktay Demiryürek Parkı,Sehit Oktay Demiryurek Parki,YENIBOSNA MERKEZ
+2916,Bahçeli̇evler,Şehit Metin Uzun Parkı,41.0053290995518,28.8592676372709,BAHÇELİEVLER,Bahcelievler,Şehit Metin Uzun Parkı,Sehit Metin Uzun Parki,BAHCELIEVLER
+2918,Bahçeli̇evler,Milli Egemenlik Parkı,41.0003857020749,28.8512072968618,ŞİRİNEVLER,Bahcelievler,Milli Egemenlik Parkı,Milli Egemenlik Parki,SIRINEVLER
+2986,Bahçeli̇evler,Muammer Taşkale Parkı,41.0197329537626,28.8266096260885,YENİBOSNA MERKEZ,Bahcelievler,Muammer Taşkale Parkı,Muammer Taskale Parki,YENIBOSNA MERKEZ
+2991,Bahçeli̇evler,Ömer İnci Parkı,40.9978013374672,28.8496094329396,ŞİRİNEVLER,Bahcelievler,Ömer İnci Parkı,Omer Inci Parki,SIRINEVLER
+3020,Bahçeli̇evler,Şehit Tamer Dost Engelsiz Yaşam Parkı,41.0008543382708,28.852852207387,SİYAVUŞPAŞA,Bahcelievler,Şehit Tamer Dost Engelsiz Yaşam Parkı,Sehit Tamer Dost Engelsiz Yasam Parki,SIYAVUSPASA
+3043,Bahçeli̇evler,Orhan Gazi Parkı,41.0018719898351,28.8771837785882,BAHÇELİEVLER,Bahcelievler,Orhan Gazi Parkı,Orhan Gazi Parki,BAHCELIEVLER
+3159,Bahçeli̇evler,Nene Hatun Parkı,41.0219871983783,28.8338573583215,KOCASİNAN MERKEZ,Bahcelievler,Nene Hatun Parkı,Nene Hatun Parki,KOCASINAN MERKEZ
+3161,Bahçeli̇evler,Ulubatlı Hasan Parkı,41.0013891420697,28.855448172924,SİYAVUŞPAŞA,Bahcelievler,Ulubatlı Hasan Parkı,Ulubatli Hasan Parki,SIYAVUSPASA
+3163,Bahçeli̇evler,Yavuz Gökmen Parkı,41.0076293429632,28.8599665090397,BAHÇELİEVLER,Bahcelievler,Yavuz Gökmen Parkı,Yavuz Gokmen Parki,BAHCELIEVLER
+3171,Bahçeli̇evler,Şehit Ercan Şahin Parkı,41.0017240380012,28.8646693248357,BAHÇELİEVLER,Bahcelievler,Şehit Ercan Şahin Parkı,Sehit Ercan Sahin Parki,BAHCELIEVLER
+3187,Bahçeli̇evler,Şehit İbrahim Koparır Parkı,41.0019439090903,28.8309501948758,FEVZİ ÇAKMAK,Bahcelievler,Şehit İbrahim Koparır Parkı,Sehit Ibrahim Koparir Parki,FEVZI CAKMAK
+3188,Bahçeli̇evler,Sırma Doğan Parkı,41.0139040984527,28.8387061755058,ZAFER,Bahcelievler,Sırma Doğan Parkı,Sirma Dogan Parki,ZAFER
+3190,Bahçeli̇evler,Remzi Özkaya Parkı,41.0142467326236,28.8310780774967,ZAFER,Bahcelievler,Remzi Özkaya Parkı,Remzi Ozkaya Parki,ZAFER
+3194,Bahçeli̇evler,İlhan Koç Parkı,41.0108144705429,28.8235413337795,YENİBOSNA MERKEZ,Bahcelievler,İlhan Koç Parkı,Ilhan Koc Parki,YENIBOSNA MERKEZ
+3196,Bahçeli̇evler,Ergene Sok. Parkı,41.0001943355844,28.8289265039027,ÇOBANÇEŞME,Bahcelievler,Ergene Sok. Parkı,Ergene Sok. Parki,COBANCESME
+3204,Bahçeli̇evler,Kazım Kanat Parkı,41.0069689351577,28.8634252751736,BAHÇELİEVLER,Bahcelievler,Kazım Kanat Parkı,Kazim Kanat Parki,BAHCELIEVLER
+3206,Bahçeli̇evler,Şehit Yunus Çaça Parkı,41.0113505194334,28.8344690633712,ZAFER,Bahcelievler,Şehit Yunus Çaça Parkı,Sehit Yunus Caca Parki,ZAFER
+3208,Bahçeli̇evler,İslam Çupi Parkı,40.9992825403091,28.8374395400306,ZAFER,Bahcelievler,İslam Çupi Parkı,Islam Cupi Parki,ZAFER
+3210,Bahçeli̇evler,Togay Bayatlı Parkı,41.0061980529062,28.8483467083966,ŞİRİNEVLER,Bahcelievler,Togay Bayatlı Parkı,Togay Bayatli Parki,SIRINEVLER
+3387,Bahçeli̇evler,Zafer Meydanı PArkı,41.0008875270953,28.8372841652384,ZAFER,Bahcelievler,Zafer Meydanı PArkı,Zafer Meydani PArki,ZAFER
+3388,Bahçeli̇evler,Fetih Parkı,40.9944951110488,28.8462890439198,ŞİRİNEVLER,Bahcelievler,Fetih Parkı,Fetih Parki,SIRINEVLER
+3466,Bahçeli̇evler,Çocuk Parkı,41.0025857047725,28.8471757740309,ŞİRİNEVLER,Bahcelievler,Çocuk Parkı,Cocuk Parki,SIRINEVLER
+3470,Bahçeli̇evler,Cem Atabeyoğlu Parkı,41.0093297216644,28.8450417969798,KOCASİNAN MERKEZ,Bahcelievler,Cem Atabeyoğlu Parkı,Cem Atabeyoglu Parki,KOCASINAN MERKEZ
+3555,Bahçeli̇evler,Levent Kırca Oya Başar Parkı,41.0147207477607,28.8531436038965,CUMHURİYET,Bahcelievler,Levent Kırca Oya Başar Parkı,Levent Kirca Oya Basar Parki,CUMHURIYET
+3624,Bahçeli̇evler,Park,41.0076135021191,28.8273166781426,ÇOBANÇEŞME,Bahcelievler,Park,Park,COBANCESME
