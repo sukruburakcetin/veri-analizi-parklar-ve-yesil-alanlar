@@ -124,15 +124,14 @@ Bu sayede çıktı görüntüde ne kadar yeşil alan çoksa o kadar yüksek puan
 Burada kuzey kesimlerde daha çok yeşil alan olduğu için bölgeler 5 puan alırken, daha düşük alanlar 3 puan almaktadır.
 
 ![alt text](https://github.com/sukruburakcetin/veri-analizi_parklar-ve-yesil-alanlar/blob/main/Scripts/Working%20Scripts/Data%20Analysis%20and%20Visualization%20Scripts/Data%20Analysis_Istanbul%20Parks%20and%20Green%20Areas%20Map/Media/Plots/analizi/analizicontoursOverlayed.png?raw=true)
-
+  
 Görüntüyü analiz etmek zorlaştığı için, elde ettiğim yeşil alan indekslerini excell dosyasına çıkarttım ve bu dosyadan verilere şehir bazında yine erişerek bir koroplet harita ve bar grafiği oluşturdum.
-
 
 ![alt text](https://github.com/sukruburakcetin/veri-analizi_parklar-ve-yesil-alanlar/blob/main/Scripts/Working%20Scripts/Data%20Analysis%20and%20Visualization%20Scripts/Data%20Analysis_Istanbul%20Parks%20and%20Green%20Areas%20Map/Media/Plots/analizi/analizi_figur_koroplet_ve_bar.svg?raw=true)
 
 
 # external installation requirements
-conda create -n geopandas_testenv -c conda-forge python=3.8 geopandas
-conda install -c conda-forge contextily
-conda update -n base -c defaults conda
-pip install openpyxl, opencv_python, scikit-image
+conda create -n geopandas_testenv -c conda-forge python=3.8 geopandas  
+conda install -c conda-forge contextily  
+conda update -n base -c defaults conda  
+pip install openpyxl, opencv_python, scikit-image  
