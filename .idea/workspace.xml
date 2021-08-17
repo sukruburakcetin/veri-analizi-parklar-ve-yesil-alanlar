@@ -19,17 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3f6a8b6-49f3-41a5-98f4-53e7beaaac3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Scripts/Working Scripts/Csv File Managing/extract_pdf_from_mdfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/cleaned/bahcelievler_parklar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/cleaned/bahcelievler_parklar.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/cleaned/beyoglu_parklar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/cleaned/beyoglu_parklar.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/cleaned/park_location_cleaned.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/cleaned/park_location_cleaned.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/cleaned/park_location_cleaned_copy.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/cleaned/park_location_cleaned_copy.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/district_income.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/district_income.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/parklarveyesilalanlar_analiz_ve_gorsellestirme_gelir.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/parklarveyesilalanlar_analiz_ve_gorsellestirme_gelir.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/parklarveyesilalanlar_analiz_ve_gorsellestirme_yayilim.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/parklarveyesilalanlar_analiz_ve_gorsellestirme_yayilim.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/uydu_goruntu_yesil_alan_analizi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/uydu_goruntu_yesil_alan_analizi.py" afterDir="false" />
+    <list default="true" id="a3f6a8b6-49f3-41a5-98f4-53e7beaaac3d" name="Default Changelist" comment="updated bahcelievler_parklar.csv&#10;updated beyoglu_parklar.csv&#10;updated district_income.xlsx&#10;added extract_pdf_from_mdfile.py&#10;updated park_location_cleaned.csv and copy.csv&#10;updated uydu_goruntu_yesil_alan_analizi.py&#10;and bunch of aux/ex files">
+      <change afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/yayilim_with_no_name_tr_raw_yedek.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,6 +206,14 @@
       <option name="presentableId" value="Default" />
       <updated>1628934801045</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated bahcelievler_parklar.csv&#10;updated beyoglu_parklar.csv&#10;updated district_income.xlsx&#10;added extract_pdf_from_mdfile.py&#10;updated park_location_cleaned.csv and copy.csv&#10;updated uydu_goruntu_yesil_alan_analizi.py&#10;and bunch of aux/ex files">
+      <created>1629200317878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629200317878</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +227,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated bahcelievler_parklar.csv&#10;updated beyoglu_parklar.csv&#10;updated district_income.xlsx&#10;added extract_pdf_from_mdfile.py&#10;updated park_location_cleaned.csv and copy.csv&#10;updated uydu_goruntu_yesil_alan_analizi.py&#10;and bunch of aux/ex files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated bahcelievler_parklar.csv&#10;updated beyoglu_parklar.csv&#10;updated district_income.xlsx&#10;added extract_pdf_from_mdfile.py&#10;updated park_location_cleaned.csv and copy.csv&#10;updated uydu_goruntu_yesil_alan_analizi.py&#10;and bunch of aux/ex files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629113716426">
