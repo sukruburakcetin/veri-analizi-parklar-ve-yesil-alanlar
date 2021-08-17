@@ -28,8 +28,13 @@ Verileri kesiştirdiğim yıllık gelirler tablosunu İstanbul Üniversitesi İk
 
 Daha sonra bu veriyi, ilçe nüfusunun, yıllık ortalama hane halkı gelirinin bulunduğu tabloyu TESEV'in aktif yeşil alan sayısı ve kişi başına m2 bazında düşen yeşil alan sayısıyla zenginleştirdim.
 
-İBB Veri Portalındaki Parklar ve Yeşil Alanlar veri setindeki ilçe bazındaki dağılımını gösteren bir koroplet(chloropleth) harita çıkardım. Bu haritayı çıkarırken (https://data.humdata.org/dataset/turkey-administrative-boundaries-levels-0-1-2) sitesinden Türkiye verilerinin işlediği İstanbul'a ait GIS datası(shapefile) Yüksek yoğunluktaki renkler sayı ile doğru orantılı şekilde tonlama şiddetini göstermektedir.
+İBB Veri Portalındaki Parklar ve Yeşil Alanlar veri setindeki ilçe bazındaki dağılımını gösteren bir koroplet(chloropleth) harita çıkardım. Bu haritayı çıkarırken (https://data.humdata.org/dataset/turkey-administrative-boundaries-levels-0-1-2) sitesinden Türkiye il ve ilçe verilerini indirdim. ArcGIS Map üzerinden İstanbul ilini sorgu çekerek ekstrak ettim. 
 
+İstanbul'a ait GIS datası(shapefile) çıkarma:
+
+![alt text](https://github.com/sukruburakcetin/veri-analizi_parklar-ve-yesil-alanlar/blob/main/Data/Non-GIS%20data/external/istanbul_ilini_cikti_al.png?raw=true)
+
+Yüksek yoğunluktaki renkler sayı ile doğru orantılı şekilde tonlama şiddetini göstermektedir.
 
 ![alt text](https://github.com/sukruburakcetin/veri-analizi_parklar-ve-yesil-alanlar/blob/main/Scripts/Working%20Scripts/Data%20Analysis%20and%20Visualization%20Scripts/Data%20Analysis_Istanbul%20Parks%20and%20Green%20Areas%20Map/Media/Plots/yayilim/yayilim_tr.svg?raw=true)
 
@@ -98,7 +103,7 @@ Buradaki amaç alan içinde ne kadar yeşil alan varsa katsayının da görünt�
 
 Bu çıktıları almak için koroplet haritanın sınırlarını modlanmış canny edge detection kullanarak elde ettim.
 
-Daha sonra findContours algoritmas ile bu sınır bölgeleri ekstrakt edilmiş alanları vektör dizinine aktardım.
+Daha sonra findContours algoritması ile bu sınır bölgeleri ekstrakt edilmiş alanları vektör dizinine aktardım.
 
 Daha sonra oluşabilecek küçük konturları elemek için bir filtreden geçirdim.
 
@@ -118,9 +123,12 @@ Bu sayede çıktı görüntüde ne kadar yeşil alan çoksa o kadar yüksek puan
 
 Burada kuzey kesimlerde daha çok yeşil alan olduğu için bölgeler 5 puan alırken, daha düşük alanlar 3 puan almaktadır.
 
+![alt text](https://github.com/sukruburakcetin/veri-analizi_parklar-ve-yesil-alanlar/blob/main/Scripts/Working%20Scripts/Data%20Analysis%20and%20Visualization%20Scripts/Data%20Analysis_Istanbul%20Parks%20and%20Green%20Areas%20Map/Media/Plots/analizi/analizicontoursOverlayed.png?raw=true)
+
+Görüntüyü analiz etmek zorlaştığı için, elde ettiğim yeşil alan indekslerini excell dosyasına çıkarttım ve bu dosyadan verilere şehir bazında yine erişerek bir koroplet harita ve bar grafiği oluşturdum.
 
 
-
+![alt text](https://github.com/sukruburakcetin/veri-analizi_parklar-ve-yesil-alanlar/blob/main/Scripts/Working%20Scripts/Data%20Analysis%20and%20Visualization%20Scripts/Data%20Analysis_Istanbul%20Parks%20and%20Green%20Areas%20Map/Media/Plots/analizi/analizi_figur_koroplet_ve_bar.svg?raw=true)
 
 
 
