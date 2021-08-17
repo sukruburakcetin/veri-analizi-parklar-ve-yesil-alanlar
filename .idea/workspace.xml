@@ -19,8 +19,139 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3f6a8b6-49f3-41a5-98f4-53e7beaaac3d" name="Default Changelist" comment="updated bahcelievler_parklar.csv&#10;updated beyoglu_parklar.csv&#10;updated district_income.xlsx&#10;added extract_pdf_from_mdfile.py&#10;updated park_location_cleaned.csv and copy.csv&#10;updated uydu_goruntu_yesil_alan_analizi.py&#10;and bunch of aux/ex files">
-      <change afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/yayilim_with_no_name_tr_raw_yedek.jpg" afterDir="false" />
+    <list default="true" id="a3f6a8b6-49f3-41a5-98f4-53e7beaaac3d" name="Default Changelist" comment="koroplet harita, görüntü işleme algoritması cıktılarında kullanılarak görüntü anlaşılır hâle getirildi.">
+      <change afterPath="$PROJECT_DIR$/.idea/rGraphicsSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rpackages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/districts_cleaned.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/Data Analysis_Istanbul Parks and Green Areas Map/Media/Plots/analizi/analizi_figur_koroplet_ve_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/Data Analysis_Istanbul Parks and Green Areas Map/Media/Plots/analizi/analizi_figur_koroplet_ve_bar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/district_income.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/district_income.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch10.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch11.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch12.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch13.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch14.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch15.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch16.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch17.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch18.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch19.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch20.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch21.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch22.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch23.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch24.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch25.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch26.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch27.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch28.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch29.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch30.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch31.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch32.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch33.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch33.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch34.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch34.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch35.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch36.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch36.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch37.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch37.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch38.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch39.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch40.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch41.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch42.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch42.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch43.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch43.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch44.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch45.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch45.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch46.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch46.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch47.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch47.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch48.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch49.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch49.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch50.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch51.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch51.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch52.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch52.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch53.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch53.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch54.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch54.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch55.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch55.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch56.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch56.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch57.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch57.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch58.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch58.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/dom_patch9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_14.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_17.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_18.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_19.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_20.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_21.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_22.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_23.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_24.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_25.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_26.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_27.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_28.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_29.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_30.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_31.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_32.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_33.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_33.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_34.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_34.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_35.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_36.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_36.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_37.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_37.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_38.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_39.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_40.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_41.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_42.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_42.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_43.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_43.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_44.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_45.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_45.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_46.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_46.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_47.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_47.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_48.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_49.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_49.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_50.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_51.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_51.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_52.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_52.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_53.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_53.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_54.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_54.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_55.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_55.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_56.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_56.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_57.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_57.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_58.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_58.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/stash/roi_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/Data Analysis_Istanbul Parks and Green Areas Map/Media/Plots/analizi/analizi_figure.png" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/Data Analysis_Istanbul Parks and Green Areas Map/Media/Plots/analizi/analizi_figure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/Data Analysis_Istanbul Parks and Green Areas Map/Media/Plots/analizi/analizi_figure.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/Data Analysis_Istanbul Parks and Green Areas Map/Media/Plots/analizi/analizi_figure.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/Data Analysis_Istanbul Parks and Green Areas Map/Media/Plots/analizi/analizicontoursOverlayed.png" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/Data Analysis_Istanbul Parks and Green Areas Map/Media/Plots/analizi/analizicontoursOverlayed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/Data Analysis_Istanbul Parks and Green Areas Map/Media/Plots/yayilim/yayilim_tr.png" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/Data Analysis_Istanbul Parks and Green Areas Map/Media/Plots/yayilim/yayilim_tr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/Data Analysis_Istanbul Parks and Green Areas Map/Media/Plots/yayilim/yayilim_tr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/Data Analysis_Istanbul Parks and Green Areas Map/Media/Plots/yayilim/yayilim_tr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/uydu_goruntu_yesil_alan_analizi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/uydu_goruntu_yesil_alan_analizi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,20 +177,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Scripts/Working Scripts/Csv File Managing" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Data/Non-GIS data/external" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\cetin\OneDrive\Desktop\veri-analizi_parklar-ve-yesil-alanlar\Scripts\Working Scripts\Csv File Managing" />
-      <recent name="C:\Users\cetin\OneDrive\Desktop\veri-analizi_parklar-ve-yesil-alanlar\Data\Non-GIS data\external" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\cetin\OneDrive\Desktop\veri-analizi_parklar-ve-yesil-alanlar\Scripts\Working Scripts\Data Analysis and Visualization Scripts" />
       <recent name="C:\Users\cetin\OneDrive\Desktop\veri-analizi_parklar-ve-yesil-alanlar\Data\Non-GIS data\external" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\BURAK\Desktop\veri-analizi_parklar-ve-yesil-alanlar\Data\Non-GIS data\external" />
+      <recent name="C:\Users\cetin\OneDrive\Desktop\veri-analizi_parklar-ve-yesil-alanlar\Scripts\Working Scripts\Csv File Managing" />
+      <recent name="C:\Users\cetin\OneDrive\Desktop\veri-analizi_parklar-ve-yesil-alanlar\Data\Non-GIS data\external" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.extract_pdf_from_mdfile">
+  <component name="RunManager" selected="Python.uydu_goruntu_yesil_alan_analizi">
     <configuration name="extract_pdf_from_mdfile" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="veri-analizi_parklar-ve-yesil-alanlar" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,7 +263,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\cetin\anaconda3\envs\geopandas_testenv\python.exe" />
+      <option name="SDK_HOME" value="D:\Anaconda3\envs\geopandas_testenv\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -151,7 +284,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\cetin\anaconda3\envs\geopandas_testenv\python.exe" />
+      <option name="SDK_HOME" value="D:\Anaconda3\envs\geopandas_testenv\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -172,7 +305,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\cetin\anaconda3\envs\geopandas_testenv\python.exe" />
+      <option name="SDK_HOME" value="D:\Anaconda3\envs\geopandas_testenv\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -221,22 +354,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated bahcelievler_parklar.csv&#10;updated beyoglu_parklar.csv&#10;updated district_income.xlsx&#10;added extract_pdf_from_mdfile.py&#10;updated park_location_cleaned.csv and copy.csv&#10;updated uydu_goruntu_yesil_alan_analizi.py&#10;and bunch of aux/ex files" />
     <option name="LAST_COMMIT_MESSAGE" value="updated bahcelievler_parklar.csv&#10;updated beyoglu_parklar.csv&#10;updated district_income.xlsx&#10;added extract_pdf_from_mdfile.py&#10;updated park_location_cleaned.csv and copy.csv&#10;updated uydu_goruntu_yesil_alan_analizi.py&#10;and bunch of aux/ex files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629113716426">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="309" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629211450498">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1629113716426" />
+    <state x="309" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1629211450498" />
     <state x="491" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1629113652627">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -249,54 +384,72 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="80" y="182" key="#xdebugger.XInspectDialog/0.0.1440.860@0.0.1440.860" timestamp="1628978552262" />
-    <state x="382" y="268" width="708" height="592" key="#xdebugger.evaluate" timestamp="1629063713631">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="987" y="683" width="490" height="597" key="#xdebugger.evaluate" timestamp="1629221610390">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="382" y="268" width="708" height="592" key="#xdebugger.evaluate/0.0.1440.860@0.0.1440.860" timestamp="1629063713631" />
-    <state width="737" height="466" key="DebuggerActiveHint" timestamp="1629054767052">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="987" y="683" width="490" height="597" key="#xdebugger.evaluate/0.0.2560.1400@0.0.2560.1400" timestamp="1629221610390" />
+    <state x="902" y="234" key="CommitChangelistDialog2" timestamp="1629223442381">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="902" y="234" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1629223442381" />
+    <state width="1801" height="759" key="DebuggerActiveHint" timestamp="1629218257907">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="737" height="466" key="DebuggerActiveHint/0.0.1440.860@0.0.1440.860" timestamp="1629054767052" />
+    <state width="1801" height="759" key="DebuggerActiveHint/0.0.2560.1400@0.0.2560.1400" timestamp="1629218257907" />
     <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1629113714439">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1629113714439" />
-    <state width="1419" height="222" key="GridCell.Tab.0.bottom" timestamp="1629115278014">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="2517" height="403" key="GridCell.Tab.0.bottom" timestamp="1629223447698">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1629115278014" />
-    <state width="1419" height="222" key="GridCell.Tab.0.center" timestamp="1629115278013">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="2517" height="403" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1629223447698" />
+    <state width="2517" height="403" key="GridCell.Tab.0.center" timestamp="1629223447698">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1629115278013" />
-    <state width="1419" height="222" key="GridCell.Tab.0.left" timestamp="1629115278013">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="2517" height="403" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1629223447698" />
+    <state width="2517" height="403" key="GridCell.Tab.0.left" timestamp="1629223447698">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1629115278013" />
-    <state width="1419" height="222" key="GridCell.Tab.0.right" timestamp="1629115278013">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="2517" height="403" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1629223447698" />
+    <state width="2517" height="403" key="GridCell.Tab.0.right" timestamp="1629223447698">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1629115278013" />
-    <state width="1419" height="213" key="GridCell.Tab.1.bottom" timestamp="1629063749824">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="2517" height="403" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1629223447698" />
+    <state width="2517" height="489" key="GridCell.Tab.1.bottom" timestamp="1629221614022">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1419" height="213" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1629063749824" />
-    <state width="1419" height="213" key="GridCell.Tab.1.center" timestamp="1629063749824">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="2517" height="489" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1629221614022" />
+    <state width="2517" height="489" key="GridCell.Tab.1.center" timestamp="1629221614022">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1419" height="213" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1629063749824" />
-    <state width="1419" height="213" key="GridCell.Tab.1.left" timestamp="1629063749823">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="2517" height="489" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1629221614022" />
+    <state width="2517" height="489" key="GridCell.Tab.1.left" timestamp="1629221614022">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1419" height="213" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1629063749823" />
-    <state width="1419" height="213" key="GridCell.Tab.1.right" timestamp="1629063749824">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="2517" height="489" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1629221614022" />
+    <state width="2517" height="489" key="GridCell.Tab.1.right" timestamp="1629221614022">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1419" height="213" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1629063749824" />
+    <state width="2517" height="489" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1629221614022" />
     <state x="221" y="74" key="SettingsEditor" timestamp="1628936558644">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="74" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1628936558644" />
+    <state width="1723" height="708" key="XDebugger.FullValuePopup" timestamp="1629221394389">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1723" height="708" key="XDebugger.FullValuePopup/0.0.2560.1400@0.0.2560.1400" timestamp="1629221394389" />
     <state x="427" y="165" width="663" height="530" key="find.popup" timestamp="1629103264216">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -309,6 +462,21 @@
           <url>file://$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/parklarveyesilalanlar_analiz_ve_gorsellestirme_nufus.py</url>
           <line>611</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/parklarveyesilalanlar_analiz_ve_gorsellestirme_yayilim.py</url>
+          <line>394</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/parklarveyesilalanlar_analiz_ve_gorsellestirme_yayilim.py</url>
+          <line>244</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/parklarveyesilalanlar_analiz_ve_gorsellestirme_yayilim.py</url>
+          <line>187</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
