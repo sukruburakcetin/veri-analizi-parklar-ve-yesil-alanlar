@@ -131,4 +131,8 @@ Görüntüyü analiz etmek zorlaştığı için, elde ettiğim yeşil alan indek
 ![alt text](https://github.com/sukruburakcetin/veri-analizi_parklar-ve-yesil-alanlar/blob/main/Scripts/Working%20Scripts/Data%20Analysis%20and%20Visualization%20Scripts/Data%20Analysis_Istanbul%20Parks%20and%20Green%20Areas%20Map/Media/Plots/analizi/analizi_figur_koroplet_ve_bar.svg?raw=true)
 
 
-
+# external installation requirements
+conda create -n geopandas_testenv -c conda-forge python=3.8 geopandas
+conda install -c conda-forge contextily
+conda update -n base -c defaults conda
+pip install openpyxl, opencv_python, scikit-image
