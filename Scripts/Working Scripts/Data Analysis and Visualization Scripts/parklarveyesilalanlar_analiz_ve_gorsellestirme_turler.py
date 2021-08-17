@@ -158,12 +158,12 @@ emphasis_color = cm.Set2.colors[2]
 # %% --- Read in the datasets ---
 
 # Istanbul health services data
-health_fp = "../../../Data/Non-GIS Data/cleaned/beyoglu_parklar.csv"
+health_fp = "../../../Data/Non-GIS Data/cleaned/park_location_cleaned.csv"
 health = pd.read_csv(health_fp)
 
 # %% --- Data Preparation ---
 
-inst_types_counts = health.loc[:, "neighborhood_tr"].value_counts()
+inst_types_counts = health.loc[:, "care_type"].value_counts()
 
 # %% --- Visualization - English ---
 
@@ -176,7 +176,7 @@ ax = fig.add_subplot(1, 1, 1)
 # --- Data Selection ---
 
 # Get labels for x - axis ticks
-labels = list(health.loc[:, "neighborhood_tr"].value_counts().index)
+labels = list(health.loc[:, "care_type"].value_counts().index)
 
 # Generate bar positions
 from numpy import arange
@@ -208,7 +208,7 @@ ax.set_xticklabels(labels, rotation=90)
 
 # Setting custom y-axis tick intervals
 start, end = ax.get_ylim()
-ax.yaxis.set_ticks(np.arange(start, end, 50))
+ax.yaxis.set_ticks(np.arange(start, end, 500))
 
 # --- Spine and Grid ---
 
@@ -220,7 +220,7 @@ ax.spines['top'].set_visible(False)
 
 ax.set_title(
     # "In Istanbul, there are " + r'\textcolor{red}{3522}' + " healthcare institutions distributed across " + r'\textcolor{red}{33}' + " categories.",
-    "Beyoğlu'ndaki Park ve Yeşil Alanlarının Dağılımı",
+    "İstanbul'daki Park Dağılımı",
     fontdict=font_title,
     pad=20)
 
@@ -230,7 +230,7 @@ ax.set_xlabel("Tür",
               labelpad=18)
 
 # Add y axis label
-ax.set_ylabel("Park ve Yesil Alan Sayısı",
+ax.set_ylabel("Park Sayısı",
               fontdict=font_axislabels,
               labelpad=18)
 
@@ -265,7 +265,7 @@ ax = fig.add_subplot(1, 1, 1)
 # --- Data Selection ---
 
 # Get labels for x - axis ticks
-labels = list(health.loc[:, "neighborhood_tr"].value_counts().index)
+labels = list(health.loc[:, "care_type"].value_counts().index)
 
 # Generate bar positions
 from numpy import arange
@@ -297,7 +297,7 @@ ax.set_xticklabels(labels, rotation=90)
 
 # Setting custom y-axis tick intervals
 start, end = ax.get_ylim()
-ax.yaxis.set_ticks(np.arange(start, end, 50))
+ax.yaxis.set_ticks(np.arange(start, end, 500))
 
 # --- Spine and Grid ---
 
@@ -307,17 +307,17 @@ ax.spines['top'].set_visible(False)
 
 # --- Text ---
 
-ax.set_title("Beyoğlu'ndaki 23 farklı mahalleye dağılmış 62 tane park ve yesil alan var.",
+ax.set_title("İstanbul'da 3 farklı kategoriye dağıtılmış 3616 tane park vardır.",
              fontdict=font_title,
              pad=20)
 
 # Add x axis label
-ax.set_xlabel(u"Park ve Yeşil Alan Türü",
+ax.set_xlabel(u"Park Türü",
               fontdict=font_axislabels,
               labelpad=18)
 
 # Add y axis label
-ax.set_ylabel(u"Türe Göre Park ve Yeşil Alan Sayısı",
+ax.set_ylabel(u"Türe Göre Park Sayısı",
               fontdict=font_axislabels,
               labelpad=18)
 
@@ -336,5 +336,5 @@ add_value_labels(ax)
 # plt.savefig(export_path, format = "svg", dpi = 1200, bbox_inches="tight")
 
 # As png
-export_path = complete_output_directory + r"/" + (filename_final_processed + "_beyoglu_genel_tr.png")
+export_path = complete_output_directory + r"/" + (filename_final_processed + "_sadece_parklar_tr.png")
 plt.savefig(export_path, format="png", dpi=600, bbox_inches="tight")
