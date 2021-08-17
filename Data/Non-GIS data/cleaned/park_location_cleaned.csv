@@ -197,7 +197,7 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 196,Fatih,Fatih,Sultanahmet Havuzlu Park,41.0071506059601,28.9783758576765,CANKURTARAN,CANKURTARAN,Park,Park,genellestirilmis
 197,Fatih,Fatih,Aşık Paşa Parkı,41.0239754942185,28.9558643444564,YAVUZ SULTAN SELİM,YAVUZ SULTAN SELIM,Park,Park,genellestirilmis
 198,Fatih,Fatih,23 Nisan Çocuk Parkı,41.0039405374539,28.97330039524,KÜÇÜK AYASOFYA,KUCUK AYASOFYA,Park,Park,cocuk
-199,Fatih,Fatih,Kurtağa Parkı ve Spor Alanı,41.0284679600867,28.9397562987873,DERVİŞ ALİ,DERVIS ALI,Park,Park,genellestirilmis
+199,Fatih,Fatih,Kurtağa Parkı ve Spor Alanı,41.0284679600867,28.9397562987873,DERVİŞ ALİ,DERVIS ALI,Park,Park,spor
 200,Fatih,Fatih,Kariye Parkı,41.0311708211868,28.9382482983796,DERVİŞ ALİ,DERVIS ALI,Park,Park,genellestirilmis
 201,Fatih,Fatih,Kurtağa Çeşme Parkı,41.0281168492728,28.9398373855138,DERVİŞ ALİ,DERVIS ALI,Park,Park,genellestirilmis
 202,Bayrampaşa,Bayrampasa,Hurşit Makinacı Parkı,41.0382536294226,28.9155463494705,YENİDOĞAN,YENIDOGAN,Park,Park,genellestirilmis
@@ -214,7 +214,7 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 213,Çekmeköy,Cekmekoy,Park,41.019761617627,29.2180924063071,KİRAZLIDERE,KIRAZLIDERE,Park,Park,genellestirilmis
 214,Çekmeköy,Cekmekoy,Fevzi Çakmak Parkı,41.0199594026775,29.2168679521047,KİRAZLIDERE,KIRAZLIDERE,Park,Park,genellestirilmis
 215,Beyoğlu,Beyoglu,Bademlik Parkı,41.0527389965315,28.9480871716599,SÜTLÜCE,SUTLUCE,Park,Park,genellestirilmis
-216,Beyoğlu,Beyoglu,,41.0434868492372,28.9770522218012,YENİŞEHİR,YENISEHIR,Park,Park,genellestirilmis
+216,Beyoğlu,Beyoglu,Yenişehir Parkı,41.0434868492372,28.9770522218012,YENİŞEHİR,YENISEHIR,Park,Park,genellestirilmis
 217,Beyoğlu,Beyoglu,Gümüşsuyu Parkı,41.0353174063103,28.9875825083886,GÜMÜŞSUYU,GUMUSSUYU,Park,Park,genellestirilmis
 218,Beyoğlu,Beyoglu,Tophane Parkı,41.0269988100186,28.9797777504764,HACIMİMİ,HACIMIMI,Park,Park,genellestirilmis
 219,Beyoğlu,Beyoglu,Çıksalın Sok. Altı Parkı,41.0503680625024,28.9504637952942,HALICIOĞLU,HALICIOGLU,Park,Park,genellestirilmis
@@ -633,7 +633,7 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 632,Avcılar,Avcilar,Taşkent Parkı,40.9814447826714,28.7404389757508,GÜMÜŞPALA,GUMUSPALA,Park,Park,genellestirilmis
 633,Bakırköy,Bakirkoy,Bakırköy Cevizlik Parkı,40.9746362223062,28.8762670848506,CEVİZLİK,CEVIZLIK,Park,Park,genellestirilmis
 634,Bakırköy,Bakirkoy,İsmail Akyüz Parkı,40.9840828541785,28.8681563361212,ZUHURATBABA,ZUHURATBABA,Park,Park,genellestirilmis
-635,Sarıyer,Sariyer,Spor Parkı,41.1141360987671,29.0592111510966,İSTİNYE,ISTINYE,Park,Park,genellestirilmis
+635,Sarıyer,Sariyer,Spor Parkı,41.1141360987671,29.0592111510966,İSTİNYE,ISTINYE,Park,Park,spor
 636,Ataşehir,Atasehir,İsmet İnönü Parkı,40.9961606092963,29.0852378139358,ÖRNEK,ORNEK,Park,Park,genellestirilmis
 637,Arnavutköy,Arnavutkoy,Arnavutköy Şehir Parkı,41.1802938605779,28.7491080466762,ANADOLU,ANADOLU,Park,Park,genellestirilmis
 638,Avcılar,Avcilar,Çocuk Parkı,41.0138065857916,28.7049049346706,FİRUZKÖY,FIRUZKOY,Park,Park,cocuk
@@ -1061,7 +1061,7 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 1060,Eyüpsultan,Eyupsultan,Kardelen Parkı,41.0767739295161,28.9276578777247,KARADOLAP,KARADOLAP,Park,Park,genellestirilmis
 1061,Beylikdüzü,Beylikduzu,Hostes Mümine Bulut Parkı,40.9802030036144,28.6370022624954,KAVAKLI,KAVAKLI,Park,Park,genellestirilmis
 1062,Büyükçekmece,Buyukcekmece,Kadir Topbaş Parkı,41.033438060138,28.4646008349158,KUMBURGAZ,KUMBURGAZ,Park,Park,genellestirilmis
-1063,Eyüpsultan,Eyupsultan,Karadolap Parkı ve Spor Kompleksi,41.0743356554603,28.9319943463585,KARADOLAP,KARADOLAP,Park,Park,genellestirilmis
+1063,Eyüpsultan,Eyupsultan,Karadolap Parkı ve Spor Kompleksi,41.0743356554603,28.9319943463585,KARADOLAP,KARADOLAP,Park,Park,spor
 1064,Eyüpsultan,Eyupsultan,Şimşek Sok. Parkı,41.0763536451743,28.9177857695956,YEŞİLPINAR,YESILPINAR,Park,Park,genellestirilmis
 1065,Sultangazi,Sultangazi,Papatya Parkı,41.0954443323381,28.9090677539727,75. YIL,75. YIL,Park,Park,genellestirilmis
 1066,Bağcılar,Bagcilar,Yeni Camii Yanı Parkı,41.0283351562286,28.8368090004082,BARBAROS,BARBAROS,Park,Park,genellestirilmis
@@ -1161,7 +1161,7 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 1160,Büyükçekmece,Buyukcekmece,Pınartepe Sahil Parkı,41.0031238787311,28.5977962662641,PINARTEPE,PINARTEPE,Park,Park,genellestirilmis
 1161,Tuzla,Tuzla,Lavanta Parkı,40.8244319458914,29.2835197808806,POSTANE,POSTANE,Park,Park,genellestirilmis
 1162,Eyüpsultan,Eyupsultan,Bosnalı Çocuklar Parkı,41.0729077094003,28.9438163906596,ESENTEPE,ESENTEPE,Park,Park,cocuk
-1163,Sarıyer,Sariyer,Aletli Jimnastik Spor Alanı,41.1718838739457,29.0560767618664,SARIYER MERKEZ,SARIYER MERKEZ,Park,Park,genellestirilmis
+1163,Sarıyer,Sariyer,Aletli Jimnastik Spor Alanı,41.1718838739457,29.0560767618664,SARIYER MERKEZ,SARIYER MERKEZ,Park,Park,spor
 1164,Sarıyer,Sariyer,Liseliler Parkı,41.1632475854103,29.0492480809847,BÜYÜKDERE,BUYUKDERE,Park,Park,genellestirilmis
 1165,Sultangazi,Sultangazi,Çınar Parkı,41.1000578025468,28.8960920819542,YUNUS EMRE,YUNUS EMRE,Park,Park,genellestirilmis
 1166,Sultangazi,Sultangazi,Şehit İsmail Murat Birol Parkı,41.1021623515214,28.8699999908876,UĞUR MUMCU,UGUR MUMCU,Park,Park,genellestirilmis
@@ -1222,7 +1222,7 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 1221,Fatih,Fatih,Vezir Parkı,41.0110164622981,28.9312392221665,ŞEHREMİNİ,SEHREMINI,Park,Park,genellestirilmis
 1222,Fatih,Fatih,Seyitömer Şelaleli Parkı,41.0088706026103,28.932694106223,SEYYİD ÖMER,SEYYID OMER,Park,Park,genellestirilmis
 1223,Başakşehir,Basaksehir,Park,41.1023044708879,28.6700079403009,BAHÇEŞEHİR 1. KISIM,BAHCESEHIR 1. KISIM,Park,Park,genellestirilmis
-1224,Başakşehir,Basaksehir,Güvercintepe Spor Parkı,41.0886620361414,28.7449088142146,GÜVERCİNTEPE,GUVERCINTEPE,Park,Park,genellestirilmis
+1224,Başakşehir,Basaksehir,Güvercintepe Spor Parkı,41.0886620361414,28.7449088142146,GÜVERCİNTEPE,GUVERCINTEPE,Park,Park,spor
 1225,Kağıthane,Kagithane,Duygu Parkı,41.0945125805313,29.0016409371536,YEŞİLCE,YESILCE,Park,Park,genellestirilmis
 1226,Küçükçekmece,Kucukcekmece,Park,41.0114259970865,28.8011101149748,TEVFİKBEY,TEVFIKBEY,Park,Park,genellestirilmis
 1227,Kağıthane,Kagithane,Çocuk Parkı,41.0681499187959,28.9713983716971,GÜRSEL,GURSEL,Park,Park,cocuk
@@ -1272,7 +1272,7 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 1271,Kağıthane,Kagithane,Güzeldere Parkı,41.0860624259605,28.9923480338728,ŞİRİNTEPE,SIRINTEPE,Park,Park,genellestirilmis
 1272,Kağıthane,Kagithane,Çocuk Parkı ,41.0612406689735,28.9651079897352,TALATPAŞA,TALATPASA,Park,Park,cocuk
 1273,Üsküdar,Uskudar,Yapma Bebek Parkı,41.0285934778897,29.0259027016866,SULTANTEPE,SULTANTEPE,Park,Park,genellestirilmis
-1274,Gaziosmanpaşa,Gaziosmanpasa,Spor Parkı,41.0634892963619,28.9067008460682,MERKEZ,MERKEZ,Park,Park,genellestirilmis
+1274,Gaziosmanpaşa,Gaziosmanpasa,Spor Parkı,41.0634892963619,28.9067008460682,MERKEZ,MERKEZ,Park,Park,spor
 1275,Üsküdar,Uskudar,Park,41.057437891374,29.0532947301859,KULELİ,KULELI,Park,Park,genellestirilmis
 1276,Üsküdar,Uskudar,Park,41.0374015331459,29.0306147950875,KUZGUNCUK,KUZGUNCUK,Park,Park,genellestirilmis
 1277,Gaziosmanpaşa,Gaziosmanpasa,770. Sokak Parkı,41.071373489194,28.9074359180575,FEVZİ ÇAKMAK,FEVZI CAKMAK,Park,Park,genellestirilmis
@@ -1615,7 +1615,7 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 1614,Ümraniye,Umraniye,Gülbahar Parkı,41.0011243262411,29.1546308713131,ŞERİFALİ,SERIFALI,Park,Park,genellestirilmis
 1615,Sancaktepe,Sancaktepe,Kamelya Parkı,40.9722327665405,29.2452335581321,VEYSEL KARANİ,VEYSEL KARANI,Park,Park,genellestirilmis
 1616,Sancaktepe,Sancaktepe,Cevher Dudayev Park,40.9856234705804,29.2297317990804,ABDURRAHMANGAZİ,ABDURRAHMANGAZI,Park,Park,genellestirilmis
-1617,Sancaktepe,Sancaktepe,Genç Gelecek Spor Parkı,41.0019940811068,29.2233798976709,KEMAL TÜRKLER,KEMAL TURKLER,Park,Park,genellestirilmis
+1617,Sancaktepe,Sancaktepe,Genç Gelecek Spor Parkı,41.0019940811068,29.2233798976709,KEMAL TÜRKLER,KEMAL TURKLER,Park,Park,spor
 1618,Sancaktepe,Sancaktepe,Şehit Murat Kalıntaş Parkı,40.9836631127925,29.2328367443919,OSMANGAZİ,OSMANGAZI,Park,Park,genellestirilmis
 1619,Arnavutköy,Arnavutkoy,Dursunköy Parkı,41.2044762889783,28.63635014701,DURSUNKÖY,DURSUNKOY,Park,Park,genellestirilmis
 1620,Eyüpsultan,Eyupsultan,Tatar Milli Şairi Gabdulla Tukay Parkı,41.0639882787746,28.9430697662896,SİLAHTARAĞA,SILAHTARAGA,Park,Park,genellestirilmis
@@ -1683,7 +1683,7 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 1682,Zeytinburnu,Zeytinburnu,Öğretmenler Parkı,41.0036040788231,28.9073573574791,BEŞTELSİZ,BESTELSIZ,Park,Park,genellestirilmis
 1683,Beşiktaş,Besiktas,Karanfilköy Parkı,41.0905372754472,29.0265449448509,AKAT,AKAT,Park,Park,genellestirilmis
 1684,Beşiktaş,Besiktas,Murat Parkı,41.0829152292879,29.0261217320177,AKAT,AKAT,Park,Park,genellestirilmis
-1685,Beşiktaş,Besiktas,Spor Yazarları Parkı,41.0860802254046,29.026278642031,AKAT,AKAT,Park,Park,genellestirilmis
+1685,Beşiktaş,Besiktas,Spor Yazarları Parkı,41.0860802254046,29.026278642031,AKAT,AKAT,Park,Park,spor
 1686,Ümraniye,Umraniye,Mimar Sinan Parkı,41.0102285697716,29.1011765256404,ATAKENT,ATAKENT,Park,Park,genellestirilmis
 1687,Ümraniye,Umraniye,Kent Parkı,41.0219316271604,29.1122606044333,ATAKENT,ATAKENT,Park,Park,genellestirilmis
 1688,Ümraniye,Umraniye,Sedir Parkı,41.0112183235307,29.1020009198456,ATAKENT,ATAKENT,Park,Park,genellestirilmis
@@ -1851,7 +1851,7 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 1850,Büyükçekmece,Buyukcekmece,Seval Sok. Parkı,40.9988814007617,28.5429585606577,MİMAROBA,MIMAROBA,Park,Park,genellestirilmis
 1851,Kağıthane,Kagithane,Latif Parkı,41.0803726376095,28.9789802436807,ÇAĞLAYAN,CAGLAYAN,Park,Park,genellestirilmis
 1852,Kartal,Kartal,Tunahan Sok. Parkı,40.8984602169246,29.1736784835253,PETROL İŞ,PETROL IS,Park,Park,genellestirilmis
-1853,Sarıyer,Sariyer,Spor Parkı,41.1286279686033,29.0671634929918,YENİKÖY,YENIKOY,Park,Park,genellestirilmis
+1853,Sarıyer,Sariyer,Spor Parkı,41.1286279686033,29.0671634929918,YENİKÖY,YENIKOY,Park,Park,spor
 1854,Kadıköy,Kadikoy,Çocuk Parkı,41.0095858053206,29.0437690115085,ACIBADEM,ACIBADEM,Park,Park,cocuk
 1855,Ümraniye,Umraniye,Hacivat Parkı,41.0189480140614,29.0908277980006,NAMIK KEMAL,NAMIK KEMAL,Park,Park,genellestirilmis
 1856,Kağıthane,Kagithane,Zafer Parkı,41.0821649665994,28.9796244830577,MERKEZ,MERKEZ,Park,Park,genellestirilmis
@@ -1999,13 +1999,13 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 1998,Beyoğlu,Beyoglu,Park,41.0403157944326,28.953578601925,KEÇECİ PİRİ,KECECI PIRI,Park,Park,genellestirilmis
 1999,Bahçelievler,Bahcelievler,Zübeyde Hanım Parkı,41.005496681512,28.8756880011014,BAHÇELİEVLER,BAHCELIEVLER,Park,Park,genellestirilmis
 2000,Bahçelievler,Bahcelievler,Nacı Kasım Parkı,41.0010811216558,28.8733675415497,BAHÇELİEVLER,BAHCELIEVLER,Park,Park,genellestirilmis
-2001,Bahçelievler,Bahcelievler,Spor Parkı,40.9963388709468,28.8254981135224,ÇOBANÇEŞME,COBANCESME,Park,Park,genellestirilmis
+2001,Bahçelievler,Bahcelievler,Spor Parkı,40.9963388709468,28.8254981135224,ÇOBANÇEŞME,COBANCESME,Park,Park,spor
 2002,Beşiktaş,Besiktas,Akatlar Parkı,41.0870493902396,29.0207082531019,AKAT,AKAT,Park,Park,genellestirilmis
 2003,Bağcılar,Bagcilar,Ayvalı Sok. Parkı,41.0460445009631,28.8472093130388,FATİH,FATIH,Park,Park,genellestirilmis
 2004,Bağcılar,Bagcilar,Yunus Emre Sitesi Parkı,41.0353835973967,28.8384881089325,KİRAZLI,KIRAZLI,Park,Park,genellestirilmis
 2005,Bahçelievler,Bahcelievler,Orhan Ayhan Parkı,41.0042477902896,28.8398354337259,HÜRRİYET,HURRIYET,Park,Park,genellestirilmis
 2006,Kadıköy,Kadikoy,Ekin Parkı,40.9784525200149,29.0903528795363,19 MAYIS,19 MAYIS,Park,Park,genellestirilmis
-2007,Sarıyer,Sariyer,Kocataş Spor Parkı,41.169618769966,29.036731515655,KOCATAŞ,KOCATAS,Park,Park,genellestirilmis
+2007,Sarıyer,Sariyer,Kocataş Spor Parkı,41.169618769966,29.036731515655,KOCATAŞ,KOCATAS,Park,Park,spor
 2008,Kadıköy,Kadikoy,Hürriyet Çocuk Parkı,40.9738920371789,29.0922832218439,19 MAYIS,19 MAYIS,Park,Park,cocuk
 2009,Kağıthane,Kagithane,Şehit Erdal Tenekeci Parkı,41.084809575072,28.9867065103532,YAHYA KEMAL,YAHYA KEMAL,Park,Park,genellestirilmis
 2010,Kağıthane,Kagithane,Lale Parkı,41.0929767309853,28.9864551177712,SEYRANTEPE,SEYRANTEPE,Park,Park,genellestirilmis
@@ -2348,7 +2348,7 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 2347,Sarıyer,Sariyer,Emirgan Parkı,41.1075790739182,29.0570455439345,EMİRGAN,EMIRGAN,Park,Park,genellestirilmis
 2348,Esenler,Esenler,Mimar Sinan Parkı,41.0341219896021,28.8892461368578,MİMAR SİNAN,MIMAR SINAN,Park,Park,genellestirilmis
 2349,Esenler,Esenler,400. Sok. Parkı,41.0641280283757,28.8660718268534,TURGUT REİS,TURGUT REIS,Park,Park,genellestirilmis
-2350,Avcılar,Avcilar,Deniz Köşkler Spor Sahası Parkı,40.9746216382315,28.737827672651,DENİZKÖŞKLER,DENIZKOSKLER,Park,Park,genellestirilmis
+2350,Avcılar,Avcilar,Deniz Köşkler Spor Sahası Parkı,40.9746216382315,28.737827672651,DENİZKÖŞKLER,DENIZKOSKLER,Park,Park,spor
 2351,Küçükçekmece,Kucukcekmece,Şehit Albay Rıdvan Özden Parkı,41.0588070183769,28.7992503801024,MEHMET AKİF,MEHMET AKIF,Park,Park,genellestirilmis
 2352,Küçükçekmece,Kucukcekmece,Atatürk Parkı,40.9990128388645,28.7977438229568,KARTALTEPE,KARTALTEPE,Park,Park,genellestirilmis
 2353,Gaziosmanpaşa,Gaziosmanpasa,Çocuk Parkı,41.082354203896,28.8814583319037,KARADENİZ,KARADENIZ,Park,Park,cocuk
@@ -2597,7 +2597,7 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 2596,Beyoğlu,Beyoglu,Çıksalın U Blok Önü Parkı,41.0496734978957,28.9484907471846,HALICIOĞLU,HALICIOGLU,Park,Park,genellestirilmis
 2597,Bakırköy,Bakirkoy,Park,40.9887647999782,28.8511526672744,ATAKÖY 7-8-9-10. KISIM,ATAKOY 7-8-9-10. KISIM,Park,Park,genellestirilmis
 2598,Eyüpsultan,Eyupsultan,Göktürk Göleti Tabiat Parkı,41.1962063932923,28.8787160021551,GÖKTÜRK MERKEZ,GOKTURK MERKEZ,Park,Park,genellestirilmis
-2599,Silivri,Silivri,Gümüşyaka Spor Kulübü Parkı,41.0446842557583,28.0433911524019,GÜMÜŞYAKA,GUMUSYAKA,Park,Park,genellestirilmis
+2599,Silivri,Silivri,Gümüşyaka Spor Kulübü Parkı,41.0446842557583,28.0433911524019,GÜMÜŞYAKA,GUMUSYAKA,Park,Park,spor
 2600,Arnavutköy,Arnavutkoy,Yel Değirmeni Parkı,41.193529740539,28.714714100607,TAŞOLUK,TASOLUK,Park,Park,genellestirilmis
 2601,Ümraniye,Umraniye,Gezi Parkı,41.0002453404649,29.1334765297219,TATLISU,TATLISU,Park,Park,genellestirilmis
 2602,Çatalca,Catalca,Kaleiçi Mahallesi Sosyal Tesis Parkı,41.1453155201119,28.4546199600387,KALEİÇİ,KALEICI,Park,Park,genellestirilmis
@@ -2715,7 +2715,7 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 2714,Pendik,Pendik,Sevgi Parkı,40.8849300578984,29.2672728858501,FEVZİ ÇAKMAK,FEVZI CAKMAK,Park,Park,genellestirilmis
 2715,Pendik,Pendik,Nene Hatun Parkı,40.8636216607109,29.2808427571927,GÜZELYALI,GUZELYALI,Park,Park,genellestirilmis
 2716,Kartal,Kartal,Muş Sok. Parkı,40.9130208284298,29.1957705158864,SOĞANLIK YENİ,SOGANLIK YENI,Park,Park,genellestirilmis
-2717,Kartal,Kartal,Eyüp İzmirli Spor Tesisleri ve Parkı,40.9034702068347,29.1954658294936,ESENTEPE,ESENTEPE,Park,Park,genellestirilmis
+2717,Kartal,Kartal,Eyüp İzmirli Spor Tesisleri ve Parkı,40.9034702068347,29.1954658294936,ESENTEPE,ESENTEPE,Park,Park,spor
 2718,Esenyurt,Esenyurt,Fatih Parkı,41.0302750036511,28.6796321943193,FATİH,FATIH,Park,Park,genellestirilmis
 2719,Eyüpsultan,Eyupsultan,Kirazlı Yol Parkı,41.1832035418452,28.8765886323039,GÖKTÜRK MERKEZ,GOKTURK MERKEZ,Park,Park,genellestirilmis
 2720,Eyüpsultan,Eyupsultan,Kaynak Sok. Parkı,41.1852064912536,28.8823731307391,GÖKTÜRK MERKEZ,GOKTURK MERKEZ,Park,Park,genellestirilmis
@@ -3066,7 +3066,7 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 3065,Kadıköy,Kadikoy,Çamlık Parkı,40.989714188818,29.0679758479445,MERDİVENKÖY,MERDIVENKOY,Park,Park,genellestirilmis
 3066,Kağıthane,Kagithane,Çakırağa Parkı,41.0972344522831,29.0001072395845,YEŞİLCE,YESILCE,Park,Park,genellestirilmis
 3067,Kağıthane,Kagithane,Tunaboyu Parkı,41.0822526128781,29.0035659450569,ÇELİKTEPE,CELIKTEPE,Park,Park,genellestirilmis
-3068,Güngören,Gungoren,Spor Parkı,41.0272950122854,28.8610021777063,GÜNEŞTEPE,GUNESTEPE,Park,Park,genellestirilmis
+3068,Güngören,Gungoren,Spor Parkı,41.0272950122854,28.8610021777063,GÜNEŞTEPE,GUNESTEPE,Park,Park,spor
 3069,Gaziosmanpaşa,Gaziosmanpasa,Çanakkale Şehitleri Parkı,41.0858834059711,28.8874269057993,KARADENİZ,KARADENIZ,Park,Park,genellestirilmis
 3070,Kağıthane,Kagithane,Horasan Parkı,41.0789942186059,28.9934992384131,GÜLTEPE,GULTEPE,Park,Park,genellestirilmis
 3071,Gaziosmanpaşa,Gaziosmanpasa,Park,41.0795321970399,28.8893340246944,KARADENİZ,KARADENIZ,Park,Park,genellestirilmis
@@ -3257,7 +3257,7 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 3256,Beşiktaş,Besiktas,Muhtarlık Parkı Eski,41.0857276996367,29.0089054592955,KONAKLAR,KONAKLAR,Park,Park,genellestirilmis
 3257,Sarıyer,Sariyer,Mühendis Şevket Parkı,41.1619751862704,29.039456957061,BÜYÜKDERE,BUYUKDERE,Park,Park,genellestirilmis
 3258,Beşiktaş,Besiktas,Muhtarlık Parkı yeni,41.0891674203545,29.0101301268318,KONAKLAR,KONAKLAR,Park,Park,genellestirilmis
-3259,Beşiktaş,Besiktas,Beşiktaş Belediyesi Sporcular Parkı,41.0871803351332,29.0146320116747,KONAKLAR,KONAKLAR,Park,Park,genellestirilmis
+3259,Beşiktaş,Besiktas,Beşiktaş Belediyesi Sporcular Parkı,41.0871803351332,29.0146320116747,KONAKLAR,KONAKLAR,Park,Park,spor
 3260,Bağcılar,Bagcilar,Ertuğrul Gazi Parkı ve Sosyal Tesisleri,41.0324923225481,28.8530635947784,İNÖNÜ,INONU,Park,Park,genellestirilmis
 3261,Sultangazi,Sultangazi,Aşık Veysel Parkı,41.0989191832759,28.8904327758486,YUNUS EMRE,YUNUS EMRE,Park,Park,genellestirilmis
 3262,Bağcılar,Bagcilar,Gönül Yuvam Parkı,41.0253923312144,28.8231510832527,BAĞLAR,BAGLAR,Park,Park,genellestirilmis
@@ -3510,7 +3510,7 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 3509,Kağıthane,Kagithane,Santral Park,41.0774247515875,29.0033711068146,ORTABAYIR,ORTABAYIR,Park,Park,genellestirilmis
 3510,Kadıköy,Kadikoy,26 Mart Parkı,40.9828896797843,29.045819732982,FENERYOLU,FENERYOLU,Park,Park,genellestirilmis
 3511,Ataşehir,Atasehir,Park,40.9833620769016,29.0966920808782,BARBAROS,BARBAROS,Park,Park,genellestirilmis
-3512,Pendik,Pendik,Çınardere Spor Tesisleri Parkı,40.8978556254253,29.2433221164994,ÇINARDERE,CINARDERE,Park,Park,genellestirilmis
+3512,Pendik,Pendik,Çınardere Spor Tesisleri Parkı,40.8978556254253,29.2433221164994,ÇINARDERE,CINARDERE,Park,Park,spor
 3513,Pendik,Pendik,Çakır Sok. Parkı,40.8822485715239,29.2412665404451,DOĞU,DOGU,Park,Park,genellestirilmis
 3514,Pendik,Pendik,Hayri Ekşi Çocuk Parkı,40.8811153806663,29.2728708326627,ESENLER,ESENLER,Park,Park,cocuk
 3515,Pendik,Pendik,Düzevler Parkı,40.883884506892,29.2737477622438,ESENLER,ESENLER,Park,Park,genellestirilmis
@@ -3610,7 +3610,6 @@ institution_id,district_tr,district_eng,institution_name,latitude,longitude,neig
 3609,Üsküdar,Uskudar,Bağlarbaşı Parkı,41.0239641854513,29.0363021500708,SELAMİ ALİ,SELAMI ALI,Park,Park,genellestirilmis
 3610,Eyüpsultan,Eyupsultan,Park,41.0624259218649,28.9427570002199,SİLAHTARAĞA,SILAHTARAGA,Park,Park,genellestirilmis
 3611,Beylikdüzü,Beylikduzu,Park,40.9755871604569,28.6775808573667,MARMARA,MARMARA,Park,Park,genellestirilmis
-3612,Bakırköy,Bakirkoy,Çocuk Parkı,40.9851834577584,28.87079160361,ZUHURATBABA,ZUHURATBABA,Park,Park,cocuk
 3613,Beykoz,Beykoz,TBMM Milli Egemenlik Parkı,41.0796711458216,29.0652108733585,GÖKSU,GOKSU,Park,Park,genellestirilmis
 3614,Eyüpsultan,Eyupsultan,Park,41.050426144468,28.9348529954306,MERKEZ,MERKEZ,Park,Park,genellestirilmis
 3615,Bağcılar,Bagcilar,Çocuk Parkı,41.0425625452383,28.8367057907569,YENİMAHALLE,YENIMAHALLE,Park,Park,cocuk

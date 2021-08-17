@@ -20,9 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3f6a8b6-49f3-41a5-98f4-53e7beaaac3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/parklarveyesilalanlar_analiz_ve_gorsellestirme_yayilim.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/veri-analizi_parklar-ve-yesil-alanlar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/veri-analizi_parklar-ve-yesil-alanlar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Working Scripts/Csv File Managing/extract_pdf_from_mdfile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/cleaned/bahcelievler_parklar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/cleaned/bahcelievler_parklar.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/cleaned/beyoglu_parklar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/cleaned/beyoglu_parklar.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/cleaned/park_location_cleaned.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/cleaned/park_location_cleaned.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/cleaned/park_location_cleaned_copy.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/cleaned/park_location_cleaned_copy.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Non-GIS data/external/district_income.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Non-GIS data/external/district_income.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/parklarveyesilalanlar_analiz_ve_gorsellestirme_gelir.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/parklarveyesilalanlar_analiz_ve_gorsellestirme_gelir.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/parklarveyesilalanlar_analiz_ve_gorsellestirme_yayilim.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/parklarveyesilalanlar_analiz_ve_gorsellestirme_yayilim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/uydu_goruntu_yesil_alan_analizi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/uydu_goruntu_yesil_alan_analizi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +55,104 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/parklarveyesilalanlar_analiz_ve_gorsellestirme_yayilim.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Scripts/Working Scripts/Csv File Managing" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cetin\OneDrive\Desktop\veri-analizi_parklar-ve-yesil-alanlar\Scripts\Working Scripts\Csv File Managing" />
+      <recent name="C:\Users\cetin\OneDrive\Desktop\veri-analizi_parklar-ve-yesil-alanlar\Data\Non-GIS data\external" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cetin\OneDrive\Desktop\veri-analizi_parklar-ve-yesil-alanlar\Scripts\Working Scripts\Data Analysis and Visualization Scripts" />
+      <recent name="C:\Users\cetin\OneDrive\Desktop\veri-analizi_parklar-ve-yesil-alanlar\Data\Non-GIS data\external" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.extract_pdf_from_mdfile">
+    <configuration name="extract_pdf_from_mdfile" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="veri-analizi_parklar-ve-yesil-alanlar" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\cetin\anaconda3\envs\geopandas_testenv\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Working Scripts/Csv File Managing" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/Working Scripts/Csv File Managing/extract_pdf_from_mdfile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parklarveyesilalanlar_analiz_ve_gorsellestirme_gelir" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="veri-analizi_parklar-ve-yesil-alanlar" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\cetin\anaconda3\envs\geopandas_testenv\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/parklarveyesilalanlar_analiz_ve_gorsellestirme_gelir.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parklarveyesilalanlar_analiz_ve_gorsellestirme_nufus" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="veri-analizi_parklar-ve-yesil-alanlar" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\cetin\anaconda3\envs\geopandas_testenv\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\cetin\OneDrive\Desktop\veri-analizi_parklar-ve-yesil-alanlar\Scripts\Working Scripts\Data Analysis and Visualization Scripts\parklarveyesilalanlar_analiz_ve_gorsellestirme_nufus.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parklarveyesilalanlar_analiz_ve_gorsellestirme_turler" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="veri-analizi_parklar-ve-yesil-alanlar" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\cetin\anaconda3\envs\geopandas_testenv\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/parklarveyesilalanlar_analiz_ve_gorsellestirme_turler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="parklarveyesilalanlar_analiz_ve_gorsellestirme_yayilim" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="veri-analizi_parklar-ve-yesil-alanlar" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,6 +174,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="uydu_goruntu_yesil_alan_analizi" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="veri-analizi_parklar-ve-yesil-alanlar" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\cetin\anaconda3\envs\geopandas_testenv\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/uydu_goruntu_yesil_alan_analizi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.parklarveyesilalanlar_analiz_ve_gorsellestirme_yayilim" />
+      <item itemvalue="Python.uydu_goruntu_yesil_alan_analizi" />
+      <item itemvalue="Python.extract_pdf_from_mdfile" />
+      <item itemvalue="Python.parklarveyesilalanlar_analiz_ve_gorsellestirme_turler" />
+      <item itemvalue="Python.parklarveyesilalanlar_analiz_ve_gorsellestirme_nufus" />
+      <item itemvalue="Python.parklarveyesilalanlar_analiz_ve_gorsellestirme_gelir" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -97,19 +227,87 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628936535511">
+    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629113716426">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1628936535511" />
-    <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1628936532611">
+    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1629113716426" />
+    <state x="491" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1629113652627">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1628936532611" />
+    <state x="491" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1629113652627" />
+    <state x="450" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629115250972">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="450" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1629115250972" />
+    <state x="80" y="182" key="#xdebugger.XInspectDialog" timestamp="1628978552262">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="80" y="182" key="#xdebugger.XInspectDialog/0.0.1440.860@0.0.1440.860" timestamp="1628978552262" />
+    <state x="382" y="268" width="708" height="592" key="#xdebugger.evaluate" timestamp="1629063713631">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="382" y="268" width="708" height="592" key="#xdebugger.evaluate/0.0.1440.860@0.0.1440.860" timestamp="1629063713631" />
+    <state width="737" height="466" key="DebuggerActiveHint" timestamp="1629054767052">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="737" height="466" key="DebuggerActiveHint/0.0.1440.860@0.0.1440.860" timestamp="1629054767052" />
+    <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1629113714439">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1629113714439" />
+    <state width="1419" height="222" key="GridCell.Tab.0.bottom" timestamp="1629115278014">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1629115278014" />
+    <state width="1419" height="222" key="GridCell.Tab.0.center" timestamp="1629115278013">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1629115278013" />
+    <state width="1419" height="222" key="GridCell.Tab.0.left" timestamp="1629115278013">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1629115278013" />
+    <state width="1419" height="222" key="GridCell.Tab.0.right" timestamp="1629115278013">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1629115278013" />
+    <state width="1419" height="213" key="GridCell.Tab.1.bottom" timestamp="1629063749824">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="213" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1629063749824" />
+    <state width="1419" height="213" key="GridCell.Tab.1.center" timestamp="1629063749824">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="213" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1629063749824" />
+    <state width="1419" height="213" key="GridCell.Tab.1.left" timestamp="1629063749823">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="213" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1629063749823" />
+    <state width="1419" height="213" key="GridCell.Tab.1.right" timestamp="1629063749824">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="213" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1629063749824" />
     <state x="221" y="74" key="SettingsEditor" timestamp="1628936558644">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="74" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1628936558644" />
+    <state x="427" y="165" width="663" height="530" key="find.popup" timestamp="1629103264216">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="427" y="165" width="663" height="530" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1629103264216" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Scripts/Working Scripts/Data Analysis and Visualization Scripts/parklarveyesilalanlar_analiz_ve_gorsellestirme_nufus.py</url>
+          <line>611</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

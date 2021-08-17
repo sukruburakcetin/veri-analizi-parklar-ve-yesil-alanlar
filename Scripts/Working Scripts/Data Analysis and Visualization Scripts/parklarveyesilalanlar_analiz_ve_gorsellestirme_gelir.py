@@ -694,9 +694,9 @@ plt.tight_layout()
 # --- Export Visualization ---
 
 # As SVG
-export_path = complete_output_directory +  r"/" + (filename_final_processed + "_alt_income_tr.svg")
+export_path = complete_output_directory +  r"/" + (filename_final_processed + "_alt_gelir_tr.svg")
 plt.savefig(export_path, format = "svg", dpi = 900, bbox_inches="tight")
 
 # As png
-export_path = complete_output_directory + r"/" + (filename_final_processed + "_alt_income_tr.png")
+export_path = complete_output_directory + r"/" + (filename_final_processed + "_alt_gelir_tr.png")
 plt.savefig(export_path, format="png", dpi=300, bbox_inches="tight")
