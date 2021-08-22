@@ -117,7 +117,7 @@ font_xticks = {'family': 'sans-serif',
 complete_output_directory = incomplete_output_directory + filename_final_processed
 kernel = np.ones((3, 3), np.uint8)
 
-# Istanbul health services data
+# Istanbul parks and green areas services data
 greenIndex_fp = "../../../Data/Non-GIS Data/external/district_income.xlsx"
 greenIndex = pd.read_excel(greenIndex_fp)
 
@@ -295,7 +295,7 @@ bar_heights = green_area_index_district.loc[:, "green_area_index"].values.astype
 
 # --- Color Information ---
 
-# For health data  when both graphs and maps are used.
+# For parks and green areas data  when both graphs and maps are used.
 sequential_cmap = cm.ScalarMappable(col.Normalize(0, max(bar_heights)), cm.BuGn)
 
 # --- Plot Figure ---

@@ -164,10 +164,10 @@ categorical_color_2 = cm.Set2.colors[3]
 emphasis_color = cm.Set2.colors[2]
 
 # %% --- Read in the datasets ---
-# istanbul_healthservices_cleaned
-# Istanbul health services data
-health_fp = "../../../Data/Non-GIS Data/cleaned/park_location_cleaned.csv"
-health = pd.read_csv(health_fp)
+# istanbul_park_location_cleaned
+# Istanbul parks and green areas services data
+parks_fp = "../../../Data/Non-GIS Data/cleaned/park_location_cleaned.csv"
+parks_and_green_areas = pd.read_csv(parks_fp)
 
 # Istanbul geospatial districts data
 istanbul_districts_fp = "../../../Data/GIS data/Processed/istanbul_districts.shp"
@@ -179,17 +179,17 @@ districts_extra = pd.read_excel(districts_extra_fp)
 
 # %% --- Data Preparation ---
 
-# Create a mask to select low level hcare institutions only
-low_level_mask = health.loc[:, "institution_type_tr"] == "Park"
+# Create a mask to select low level parks only
+low_level_mask = parks_and_green_areas.loc[:, "institution_type_tr"] == "Park"
 
 # Use the boolean mask to select
-health_low_level = health.loc[low_level_mask, :]
+parks_low_level = parks_and_green_areas.loc[low_level_mask, :]
 
-# How many first-step health care institutions are private vs. public?
+# How many first-step parks and green areas are region child vs. region sport?
 # private_vs_public = health_low_level.loc[:,"private_or_public"].value_counts()
 
 # Distribution across districts
-district_inst_count = health_low_level.loc[:, "district_tr"].value_counts().rename_axis("district_tr").reset_index(
+district_inst_count = parks_low_level.loc[:, "district_tr"].value_counts().rename_axis("district_tr").reset_index(
     name="count")
 
 # Does this correlate with population ?
@@ -297,7 +297,7 @@ bar_heights = districts_with_inst_count.loc[:, "count"].sort_values(ascending=Fa
 
 # --- Color Information ---
 
-# For health data  when both graphs and maps are used.
+# For parks and green areas data  when both graphs and maps are used.
 sequential_cmap = cm.ScalarMappable(col.Normalize(0, max(bar_heights)), cm.YlOrBr)
 
 # --- Plot Figure ---
@@ -537,7 +537,7 @@ bar_heights = districts_with_inst_count.loc[:, "total_active_green_space"].sort_
 
 # --- Color Information ---
 
-# For health data  when both graphs and maps are used.
+# For parks and green areas data  when both graphs and maps are used.
 sequential_cmap = cm.ScalarMappable(col.Normalize(0, max(bar_heights)), cm.YlOrBr)
 
 # --- Plot Figure ---

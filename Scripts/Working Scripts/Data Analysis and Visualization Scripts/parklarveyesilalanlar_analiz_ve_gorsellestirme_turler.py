@@ -157,13 +157,13 @@ emphasis_color = cm.Set2.colors[2]
 
 # %% --- Read in the datasets ---
 
-# Istanbul health services data
-health_fp = "../../../Data/Non-GIS Data/cleaned/park_location_cleaned.csv"
-health = pd.read_csv(health_fp)
+# Istanbul park and green areas services data
+parks_fp = "../../../Data/Non-GIS Data/cleaned/park_location_cleaned.csv"
+parks_and_green_areas = pd.read_csv(parks_fp)
 
 # %% --- Data Preparation ---
 
-inst_types_counts = health.loc[:, "care_type"].value_counts()
+inst_types_counts = parks_and_green_areas.loc[:, "care_type"].value_counts()
 
 # %% --- Visualization - English ---
 
@@ -176,7 +176,7 @@ ax = fig.add_subplot(1, 1, 1)
 # --- Data Selection ---
 
 # Get labels for x - axis ticks
-labels = list(health.loc[:, "care_type"].value_counts().index)
+labels = list(parks_and_green_areas.loc[:, "care_type"].value_counts().index)
 
 # Generate bar positions
 from numpy import arange
@@ -188,7 +188,7 @@ bar_heights = inst_types_counts.values.astype(int)
 
 # --- Color Information ---
 
-# For health data  when both graphs and maps are used.
+# For parks and green areas data  when both graphs and maps are used.
 sequential_cmap = sequential_color_mapper(bar_heights)
 
 # --- Plot Figure ---
@@ -265,7 +265,7 @@ ax = fig.add_subplot(1, 1, 1)
 # --- Data Selection ---
 
 # Get labels for x - axis ticks
-labels = list(health.loc[:, "care_type"].value_counts().index)
+labels = list(parks_and_green_areas.loc[:, "care_type"].value_counts().index)
 
 # Generate bar positions
 from numpy import arange
@@ -277,7 +277,7 @@ bar_heights = inst_types_counts.values.astype(int)
 
 # --- Color Information ---
 
-# For health data  when both graphs and maps are used.
+# For park and green areas data  when both graphs and maps are used.
 sequential_cmap = sequential_color_mapper(bar_heights)
 
 # --- Plot Figure ---

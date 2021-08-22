@@ -172,9 +172,9 @@ emphasis_color = cm.Set2.colors[2]
 
 # %% --- Read in the datasets ---
 
-# Istanbul health services data
-health_fp = "../../../Data/Non-GIS Data/cleaned/park_location_cleaned.csv"
-health = pd.read_csv(health_fp)
+# Istanbul parks and green areas services data
+parks_fp = "../../../Data/Non-GIS Data/cleaned/park_location_cleaned.csv"
+parks_and_green_areas = pd.read_csv(parks_fp)
 
 # Istanbul geospatial districts data
 istanbul_districts_fp = "../../../Data/GIS data/Processed/istanbul_districts.shp"
@@ -184,13 +184,14 @@ istanbul_districts = gpd.read_file(istanbul_districts_fp, )
 
 
 # Create for English
-h_inst_per_district_eng = health.loc[:, "district_eng"].value_counts().sort_values(ascending=False).reset_index()
-h_inst_per_district_eng.rename(columns={"index": "district_e",
-                                        "district_eng": "health_count"},
-                               inplace=True)
+p_and_ga_inst_per_district_eng = parks_and_green_areas.loc[:, "district_eng"].value_counts().sort_values(
+    ascending=False).reset_index()
+p_and_ga_inst_per_district_eng.rename(columns={"index": "district_e",
+                                               "district_eng": "park_count"},
+                                      inplace=True)
 
 # Merge with geodataframe
-istanbul_districts = istanbul_districts.merge(h_inst_per_district_eng,
+istanbul_districts = istanbul_districts.merge(p_and_ga_inst_per_district_eng,
                                               on="district_e",
                                               how="left")
 
@@ -209,7 +210,7 @@ ax_1 = fig.add_subplot(2, 1, 1)
 # --- Plot Figure ---
 
 istanbul_districts.plot(ax=ax_1,
-                        column="health_count",
+                        column="park_count",
                         edgecolor="black",
                         alpha=1,
                         cmap=cm.YlOrBr)
@@ -228,7 +229,8 @@ ax_1.set_axis_off()  # Turn off axis
 
 # Select districts that you want labels for
 districts_to_label_list = ["Silivri", "Catalca", "Buyukcekmece", "Arnavutkoy", "Eyupsultan", "Sariyer",
-                           "Beykoz", "Sile", "Cekmekoy", "Tuzla", "Pendik", "Maltepe", "Basaksehir", "Bahcelievler", "Beyoglu"]
+                           "Beykoz", "Sile", "Cekmekoy", "Tuzla", "Pendik", "Maltepe", "Basaksehir", "Bahcelievler",
+                           "Beyoglu"]
 
 districts_to_label_indexes = [31, 5, 16, 3, 20, 33, 13, 1, 17, 37, 30]
 
@@ -254,7 +256,7 @@ ax_2 = fig.add_subplot(2, 1, 2)
 # --- Data Selection ---
 
 # Get labels for x - axis ticks
-labels = list(health.loc[:, "district_eng"].value_counts().sort_values(ascending=False).index)
+labels = list(parks_and_green_areas.loc[:, "district_eng"].value_counts().sort_values(ascending=False).index)
 
 # Generate bar positions
 from numpy import arange
@@ -262,11 +264,11 @@ from numpy import arange
 bar_positions = arange(len(labels)) + 1
 
 # Get bar heights from data
-bar_heights = h_inst_per_district_eng.loc[:, "health_count"].values.astype(int)
+bar_heights = p_and_ga_inst_per_district_eng.loc[:, "park_count"].values.astype(int)
 
 # --- Color Information ---
 
-# For health data  when both graphs and maps are used.
+# For park and green areas data  when both graphs and maps are used.
 sequential_cmap = cm.ScalarMappable(col.Normalize(0, max(bar_heights)), cm.YlOrBr)
 
 # --- Plot Figure ---
@@ -295,7 +297,7 @@ cbar = plt.colorbar(sequential_cmap,
                     shrink=0.25,
                     anchor=(30, 10))
 
-cbar.set_label('Number of health institutions',
+cbar.set_label('Number of parks and green areas',
                size=14,
                weight="bold")
 
@@ -349,8 +351,8 @@ plt.tight_layout()
 # plt.savefig(export_path, format = "svg", dpi = 1200, bbox_inches="tight")
 
 # As png
-#export_path = complete_output_directory + r"/" + (filename_final_processed + "_eng.png")
-#plt.savefig(export_path, format="png", dpi=300, bbox_inches="tight")
+# export_path = complete_output_directory + r"/" + (filename_final_processed + "_eng.png")
+# plt.savefig(export_path, format="png", dpi=300, bbox_inches="tight")
 
 # %% --- Visualization - Turkish ---
 
@@ -366,7 +368,7 @@ ax_1 = fig.add_subplot(2, 1, 1)
 # --- Plot Figure ---
 
 istanbul_districts.plot(ax=ax_1,
-                        column="health_count",
+                        column="park_count",
                         edgecolor="black",
                         alpha=1,
                         cmap=cm.YlOrBr)
@@ -387,7 +389,8 @@ ax_1.set_axis_off()  # Turn off axis
 
 # Select districts that you want labels for
 districts_to_label_list = ["Silivri", "Catalca", "Buyukcekmece", "Arnavutkoy", "Eyupsultan", "Sariyer",
-                           "Beykoz", "Sile", "Cekmekoy", "Tuzla", "Pendik", "Maltepe", "Basaksehir", "Bahcelievler", "Beyoglu"]
+                           "Beykoz", "Sile", "Cekmekoy", "Tuzla", "Pendik", "Maltepe", "Basaksehir", "Bahcelievler",
+                           "Beyoglu"]
 
 districts_to_label_indexes = [31, 5, 16, 3, 20, 33, 13, 1, 17, 37, 30]
 
@@ -413,7 +416,7 @@ ax_2 = fig.add_subplot(2, 1, 2)
 # --- Data Selection ---
 
 # Get labels for x - axis ticks
-labels = list(health.loc[:, "district_eng"].value_counts().sort_values(ascending=False).index)
+labels = list(parks_and_green_areas.loc[:, "district_eng"].value_counts().sort_values(ascending=False).index)
 
 # Generate bar positions
 from numpy import arange
@@ -421,11 +424,11 @@ from numpy import arange
 bar_positions = arange(len(labels)) + 1
 
 # Get bar heights from data
-bar_heights = h_inst_per_district_eng.loc[:, "health_count"].values.astype(int)
+bar_heights = p_and_ga_inst_per_district_eng.loc[:, "park_count"].values.astype(int)
 
 # --- Color Information ---
 
-# For health data  when both graphs and maps are used.
+# For park and green areas data  when both graphs and maps are used.
 sequential_cmap = cm.ScalarMappable(col.Normalize(0, max(bar_heights)), cm.YlOrBr)
 
 # --- Plot Figure ---
@@ -508,15 +511,9 @@ plt.tight_layout()
 # --- Export Visualization ---
 
 # As svg
-export_path = complete_output_directory +  r"/" + (filename_final_processed + "_tr.svg")
-plt.savefig(export_path, format = "svg", dpi = 1200, bbox_inches="tight")
+export_path = complete_output_directory + r"/" + (filename_final_processed + "_tr.svg")
+plt.savefig(export_path, format="svg", dpi=1200, bbox_inches="tight")
 
 # As png
 export_path = complete_output_directory + r"/" + (filename_final_processed + "_tr.png")
 plt.savefig(export_path, format="png", dpi=300, bbox_inches="tight")
-
-
-
-
-
-
