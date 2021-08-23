@@ -40,6 +40,20 @@ Yüksek yoğunluktaki renkler sayı ile doğru orantılı şekilde tonlama şidd
 
 Koroplet haritaya göre sadece sayılara bakılarak söz konusu farkındalığı kanıtlayabilir bir veri oluşturamıyoruz. Bu veriye göre daha çok kıyı kesimlerdeki ilçelerde park sayısının iç kesimlere göre daha fazla olduğunu söyleyebiliriz. Projemin ileriki aşamalarında 2D uydu görüntüsü üzerinde de karşılaştırabileceğimiz gibi bu dağılımın ilin coğrafik yeşil alan miktarıyla da ilgili olmadığını söyleyebilirim.
 
+Ayrıca görselleştirmede çeşitlilik adına farklı görselleştirme sunumlarını da göstermek isterim.
+
+Parklar ve yeşil alan sayılarının grid şeklinde gösterimi:
+
+![alt text](https://github.com/sukruburakcetin/veri-analizi_parklar-ve-yesil-alanlar/blob/main/Data/Non-GIS%20data/external/kepler_gl_outs/grid_out.png?raw=true)
+
+Parklar ve yeşil alan sayılarının heat map şeklinde gösterimi:
+
+![alt text](https://github.com/sukruburakcetin/veri-analizi_parklar-ve-yesil-alanlar/blob/main/Data/Non-GIS%20data/external/kepler_gl_outs/head_out.png?raw=true)
+
+Parklar ve yeşil alan sayılarının point(nokta) şeklinde gösterimi:
+
+![alt text](https://github.com/sukruburakcetin/veri-analizi_parklar-ve-yesil-alanlar/blob/main/Data/Non-GIS%20data/external/kepler_gl_outs/point_out.png?raw=true)
+
 Bu hariya göre başlıca iller Eyüpsultan, Üsküdar, Ümraniye, Kartal.
 
 Veriyi çeşitlendirirken ismine göre ayıkladığımdan bahsetmiştim. İsminde Koru, Orman, Mesire geçenleri etiketleyip bir bar grafiği oluşturdum. Bu verileri kısmen de olsa destekeyip kanıtlamak için de yine İBB Veri Portalındaki "https://data.ibb.gov.tr/dataset/2019-yili-park-bahce-ve-yesil-alan-verileri" veri setiyle de teyit ettim. Sadece 2019 içerdiği için kısmen uyuşmasa da özellikle Mesire ve Ormanları veri içerinden ayıklamada paralellik gösterdiğini, incelediğim (https://data.ibb.gov.tr/dataset/parklar-ve-yesil-alanlar) veri setinin kendi içinde tutarlı olduğunu söyleyebilirim.
