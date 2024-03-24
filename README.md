@@ -1,4 +1,4 @@
-# veri-analizi_parklar-ve-yesil-alanlar
+# (Veri Analizi) Parklar ve Yeşil Alanlar
 İstanbul Büyük Şehir Belediyesi Açık Veri Portalı'ndan Elde Edilmiş Veri Üzerinden İstanbul'daki Parklar ve Yeşil Alanların İlçe Bazında Çeşitli Sosyokültürel Değerlerle İlişkilendirilip Analiz Edilmesi
 
 İstanbul Bahçelievler'de büyüdüm. Bu süreçte bir ilçenin, tüm etnik kültür farklılıklarını içerdiği beldelerinde gözlem yapma fırsatım oldu. Özellikle bu süreçte, lise sınavlarına hazırlandığım esnada dershanelere giderken ve daha sonraki üniversite dönemim boyunca da yine aynı lokasyon boyunda eğitim hayatımı sürdürürken, hedef bölgeye ulaşırken istemeden de olsa merak ettiğim bir olgu keşfetmiştim.
