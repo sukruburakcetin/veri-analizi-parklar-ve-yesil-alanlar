@@ -1,14 +1,20 @@
 # import the necessary packages
 import os
 
+import contextily as ctx  # Used in conjuction with matplotlib/geopandas to set a basemap
 import cv2
+import geopandas as gpd  # A module built on top of pandas for geospatial analysis
+import matplotlib.cm as cm
+import matplotlib.colors as col
 import numpy as np
 import pandas as pd  # For general data processing tasks
 from matplotlib import pyplot as plt
-import geopandas as gpd  # A module built on top of pandas for geospatial analysis
-import contextily as ctx  # Used in conjuction with matplotlib/geopandas to set a basemap
-import matplotlib.cm as cm
-import matplotlib.colors as col
+from numpy import arange  # Generate bar positions
+from mpl_toolkits.axes_grid1.inset_locator import inset_axes  # Import required toolkit
+import warnings
+
+warnings.filterwarnings("ignore")
+
 
 def auto_canny(image, sigma=0.33):
     # compute the median of the single channel pixel intensities
@@ -21,6 +27,8 @@ def auto_canny(image, sigma=0.33):
 
     # return the edged image
     return edged
+
+
 # %% --- Helper functions and definitions ---
 
 # Helper function: Add labels to the top of a bar chart.
@@ -78,7 +86,7 @@ dirname_intermediary = dirname.split("\\")
 
 # Join in a way that would make it relative
 separator = r"/"
-dirname_final = separator.join(dirname_intermediary[0:5])
+dirname_final = separator.join(dirname_intermediary)
 
 # Craft the complete output directory
 incomplete_output_directory = dirname_final + "/Data Analysis_Istanbul Parks and Green Areas Map/Media/Plots/"
@@ -174,7 +182,7 @@ for c in contours:
         _, labels, palette = cv2.kmeans(pixels, n_colors, None, criteria, 10, flags)
         _, counts = np.unique(labels, return_counts=True)
         dominant = palette[np.argmax(counts)]
-        print('Dominant color: ', dominant)
+        # print('Dominant color: ', dominant)
         indices = np.argsort(counts)[::-1]
         gray_avg = (dominant[0] + dominant[1] + dominant[2]) / 3
         if 0 < gray_avg < 25:
@@ -244,8 +252,9 @@ istanbul_districts.plot(ax=ax_1,
 # YlGnBu -> blue schema
 # --- Set Basemap ---
 
+
 ctx.add_basemap(ax_1, zoom=11,  # 16
-                crs='epsg:4326',
+                crs='EPSG:4326',
                 source=ctx.providers.Esri.WorldGrayCanvas)
 
 # --- Spine and Grid ---
@@ -272,8 +281,11 @@ districts_to_label["representative_point"] = districts_to_label.geometry.represe
 
 # Pass over each row label the repsentative point according to that row's name
 for idx, row in districts_to_label.iterrows():
-    ax_1.annotate(s=row["district_e"], xy=(row["representative_point"].x, row["representative_point"].y),
-                  horizontalalignment='center')
+    ax_1.annotate(text=row["district_e"], xy=(row["representative_point"].x, row["representative_point"].y),
+                  xytext=(3, 3),  # Adjust the offset as needed
+                  textcoords="offset points",
+                  horizontalalignment='center',
+                  fontsize=10)  # Adjust the font size as needed
 
 #                           --- BAR CHART: ---
 
@@ -282,16 +294,33 @@ ax_2 = fig.add_subplot(2, 1, 2)
 
 # --- Data Selection ---
 
-# Get labels for x - axis ticks
-labels = list(green_area_index_district.loc[:, "district_e"].value_counts().sort_values(ascending=False).index)
+# Define the order of districts for consistent plotting
+district_order = ["Adalar", "Arnavutkoy", "Atasehir", "Avcilar", "Bagcilar", "Bahcelievler", "Bakirkoy",
+                  "Basaksehir", "Bayrampasa", "Besiktas", "Beykoz", "Beylikduzu", "Beyoglu", "Buyukcekmece",
+                  "Catalca", "Cekmekoy", "Esenler", "Esenyurt", "Eyupsultan", "Fatih", "Gaziosmanpasa",
+                  "Gungoren", "Kadikoy", "Kagithane", "Kartal", "Kucukcekmece", "Maltepe", "Pendik",
+                  "Sancaktepe", "Sariyer", "Sile", "Silivri", "Sisli", "Sultanbeyli", "Sultangazi",
+                  "Tuzla", "Umraniye", "Uskudar", "Zeytinburnu"]
 
-# Generate bar positions
-from numpy import arange
+# Get labels for x - axis ticks
+# labels = list(green_area_index_district.loc[:, "district_e"].value_counts().sort_values(ascending=False).index)
+
+# Get labels for x-axis ticks
+labels = district_order
 
 bar_positions = arange(len(labels)) + 1
 
-# Get bar heights from data
-bar_heights = green_area_index_district.loc[:, "green_area_index"].values.astype(int)
+# Initialize bar heights with zeros
+bar_heights = np.zeros(len(labels))
+
+# Iterate over districts to assign green area index values
+for idx, district in enumerate(labels):
+    # Get the green area index value for the current district
+    green_area_index_value = green_area_index_district.loc[
+        green_area_index_district['district_e'] == district, 'green_area_index'].values
+    # If the district is found in the data, assign its green area index value
+    if len(green_area_index_value) > 0:
+        bar_heights[idx] = green_area_index_value[0]
 
 # --- Color Information ---
 
@@ -307,8 +336,6 @@ ax_2.bar(bar_positions, bar_heights,
 
 # --- Add color legend ---
 
-# Import required toolkit
-from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 
 # Create an inset_axes instance with different parameters
 axins1 = inset_axes(ax_2,
@@ -363,8 +390,8 @@ add_value_labels(ax_2)
 
 # Set xtick font info
 
-ax_2.set_xticklabels(ax_2.get_xticklabels(),
-                     font_xticks)
+
+ax_2.set_xticklabels(ax_2.get_xticklabels(), fontdict=font_xticks)
 
 # --- Misc ---
 
@@ -373,9 +400,9 @@ plt.tight_layout()
 
 # -------------
 # plt.show()
-export_path = complete_output_directory + r"/" + (filename_final_processed + "_figur_koroplet_ve_bar.svg")
+export_path = complete_output_directory + r"/" + (filename_final_processed + "_figur_koroplet_ve_bar1.svg")
 plt.savefig(export_path, format="svg", dpi=900, bbox_inches="tight")
 
 # As png
-export_path = complete_output_directory + r"/" + (filename_final_processed + "_figur_koroplet_ve_bar.png")
+export_path = complete_output_directory + r"/" + (filename_final_processed + "_figur_koroplet_ve_bar1.png")
 plt.savefig(export_path, format="png", dpi=300, bbox_inches="tight")

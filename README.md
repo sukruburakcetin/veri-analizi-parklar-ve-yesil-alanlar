@@ -144,8 +144,20 @@ Görüntüyü analiz etmek zorlaştığı için, elde ettiğim yeşil alan indek
 ![alt text](https://github.com/sukruburakcetin/veri-analizi_parklar-ve-yesil-alanlar/blob/main/Scripts/Working%20Scripts/Data%20Analysis%20and%20Visualization%20Scripts/Data%20Analysis_Istanbul%20Parks%20and%20Green%20Areas%20Map/Media/Plots/analizi/analizi_figur_koroplet_ve_bar.svg?raw=true)
 
 
-# external installation requirements
-conda create -n geopandas_testenv -c conda-forge python=3.8 geopandas  
-conda install -c conda-forge contextily  
-conda update -n base -c defaults conda  
-pip install openpyxl, opencv_python, scikit-image  
+## External installation requirements without requirement.txt
+### First clean install geopandas with the commands below:
+```
+conda create -n geo_env
+conda activate geo_env
+conda config --env --add channels conda-forge
+conda config --env --set channel_priority strict
+conda install python=3 geopandas
+```
+### Second clean install contextily with the command below:
+```
+conda install contextily --channel conda-forge
+```
+### Then, install openpyxl and opencv_python with the commands below:
+```
+pip install openpyxl, opencv_python
+```

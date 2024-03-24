@@ -37,7 +37,7 @@ dirname_intermediary = dirname.split("\\")
 
 # Join in a way that would make it relative
 separator = r"/"
-dirname_final = separator.join(dirname_intermediary[0:5])
+dirname_final = separator.join(dirname_intermediary)
 
 # Craft a filepath without the final folder to which the plot will be exported
 incomplete_output_directory = dirname_final + "/Data Analysis_Istanbul Parks and Green Areas Map/Media/Plots/"
