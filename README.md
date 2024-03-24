@@ -24,9 +24,9 @@ Daha sonra Parklar'ı da kendi içinde Park isimlerinde geçen "Çocuk" ya da "S
 
 Verileri kesiştirdiğim yıllık gelirler tablosunu İstanbul Üniversitesi İktisat Fakültesi’nin yürüttüğü İstanbul Kalkınma Ajansı’nın desteklediği Mahallem İstanbul projesinin İstanbul’da gelir dağılımıyla ilgili analiz sonuçları üzerinden oluşturdum.
 
-![alt text](https://i.pstimaj.com/img/78/0x1060/5ae1f42eae298b8e0125189a.jpg)
-
 Daha sonra bu veriyi, ilçe nüfusunun, yıllık ortalama hane halkı gelirinin bulunduğu tabloyu TESEV'in aktif yeşil alan sayısı ve kişi başına m2 bazında düşen yeşil alan sayısıyla zenginleştirdim.
+
+![alt text](https://images2.imgbox.com/c5/48/Am6s7oep_o.png?raw=true)
 
 İBB Veri Portalındaki Parklar ve Yeşil Alanlar veri setindeki ilçe bazındaki dağılımını gösteren bir koroplet(chloropleth) harita çıkardım. Bu haritayı çıkarırken (https://data.humdata.org/dataset/turkey-administrative-boundaries-levels-0-1-2) sitesinden Türkiye il ve ilçe verilerini indirdim. ArcGIS Map üzerinden İstanbul ilini sorgu çekerek ekstrak ettim. 
 
